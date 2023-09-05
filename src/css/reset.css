@@ -26,10 +26,16 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+address {
+  font-style: normal;
 }

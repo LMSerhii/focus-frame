@@ -1,0 +1,45 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.container {
+  min-width: 260px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1080px;
+    padding: 0 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+}
