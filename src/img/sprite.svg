@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+        <symbol id="camera" viewBox="0 0 32 32">
+            <path
+                d="M21 17c0 1.326-.527 2.598-1.464 3.536S17.327 22 16 22s-2.598-.527-3.536-1.464C11.526 19.598 11 18.326 11 17s.527-2.598 1.464-3.536C13.402 12.526 14.673 12 16 12s2.598.527 3.536 1.464C20.474 14.402 21 15.673 21 17z" />
+            <path
+                d="M4 8c-1.061 0-2.078.421-2.828 1.172S0 10.94 0 12v12c0 1.061.421 2.078 1.172 2.828S2.94 28 4 28h24c1.061 0 2.078-.421 2.828-1.172S32 25.06 32 24V12c0-1.061-.421-2.078-1.172-2.828S29.06 8 28 8h-2.344c-1.061 0-2.078-.422-2.828-1.172l-1.656-1.656C20.422 4.422 19.405 4 18.344 4h-4.688c-1.061 0-2.078.422-2.828 1.172L9.172 6.828C8.422 7.578 7.405 8 6.344 8H4zm1 4c-.265 0-.52-.105-.707-.293S4 11.265 4 11c0-.265.105-.52.293-.707S4.735 10 5 10c.265 0 .52.105.707.293S6 10.735 6 11c0 .265-.105.52-.293.707S5.265 12 5 12zm18 5c0 1.857-.737 3.637-2.05 4.95S17.857 24 16 24c-1.857 0-3.637-.737-4.95-2.05S9 18.857 9 17c0-1.857.738-3.637 2.05-4.95S14.143 10 16 10c1.857 0 3.637.738 4.95 2.05S23 15.143 23 17z" />
+        </symbol>
+        <symbol id="close" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M24 8 8 24M8 8l16 16" />
+        </symbol>
+        <symbol id="burger-nav" viewBox="0 0 46 32">
+            <path stroke-linecap="round" stroke-width="3.4286" d="M8.671 5.074H44M8.671 24.468H44M19.602 14.771H44" />
+        </symbol>
+        <symbol id="arrow-2" viewBox="0 0 64 32">
+            <path d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z" />
+        </symbol>
+        <symbol id="arrow-1" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08"
+                d="M8 24 24 8M13.333 8H24v10.667" />
+        </symbol>
+        <symbol id="star" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"
+                d="m16 2.667 4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z" />
+        </symbol>
+        <symbol id="star-full" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"
+                d="m16 3.2 3.955 7.899 8.845 1.274-6.4 6.145 1.51 8.681L16 23.098l-7.91 4.101 1.51-8.681-6.4-6.145 8.845-1.274L16 3.2z" />
+        </symbol>
+    </defs>
+</svg>
