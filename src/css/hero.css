@@ -1,4 +1,115 @@
-.hero-img {
-    width: 397px;
-    height: 520px;
+.hero-section {
+  border-radius: 30px;
+  background: #1d1d1d;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-title {
+  display: block;
+  max-width: 563px;
+  padding-left: 50px;
+}
+.hero-title-h {
+  color: #fff;
+
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: -2.56px;
+  padding-top: 80px;
+}
+
+.hero-title-span {
+  color: #bea69e;
+
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -2.56px;
+}
+.hero-text {
+  color: #fff;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  padding-top: 20px;
+  max-width: 418px;
+}
+.hero-item {
+  display: flex;
+  
+}
+.hero-image {
+  padding-left: 50px;
+  padding-top: 136px;
+  
+  
+}
+
+.hero-text-icon {
+  width: 82px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.64px;
+}
+.hero-str {
+  padding-bottom: 50px;
+  fill: #fff;
+}
+.hero-item-img {
+  border-radius: 100px;
+ 
+  
+}
+
+.left-boy {
+    position: relative;
+    top: 0px; left: 100px;
+
+}
+.left-girl1 {
+    position: relative;
+    top: 0px; left: px;
+}
+
+.left-girl2 {
+    position: relative;
+    top: 0px; left: -95px;
+}
+
+.hero-star {
+    fill: #fff;
+    stroke-width: 1.5px;
+    stroke: #121212;
+   
+}
+
+.hero-ison-star {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+background: #BEA69E;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 55px;
+
+}
+
+.line {
+    /* display: flex; */
+}
+
+.hhh {
+    display: flex;
 }
