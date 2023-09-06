@@ -1,0 +1,43 @@
+
+.our_courses {
+    max-width: 335px;
+    padding: 0 20px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+.container {
+}
+.caption {
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.04em;
+
+}
+.caption_span {
+color: var(--brown);
+
+}
+.desc {
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+
+width: 335px;
+margin-top: 20px;
+}
+.our_courses_list {
+    
+}
+.our_courses_item {
+}
+.our_courses_box {
+}
+.our_courses_card {
+}
+.card-icon {
+}
+.subtitle_card {
+}
+.text_card {
+}
