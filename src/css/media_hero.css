@@ -1,1 +1,114 @@
 /* ========================= MOBILE ===================== */
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero-section {
+    max-width: 704px;
+    padding: 0 15px;
+  }
+  .hero-title-h {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+
+    padding-top: 64px;
+    padding-left: 17px; 
+    padding-right: 145px;
+    padding-bottom: 0px;
+  }
+  .hero-title-span {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+  }
+  .hero-title {
+    max-width: 768px;
+  }
+  .hero-title-p {
+    padding-left: 22px;
+    padding-right: 250px;
+    padding-top: 20px;
+  }
+
+  .hero-item-imga {
+    width: 54px;
+    height: 54px;
+  }
+  .hero-ison-star {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+  }
+
+  .left-boy {
+    top: 0px;
+
+    left: 104px;
+  }
+
+  .left-girl1 {
+    top: 0px;
+    left: 6px;
+  }
+  .left-girl2 {
+    top: 0px;
+
+    left: -89px;
+  }
+  .hero-ison-star {
+    order: 2;
+  }
+  .hero-text-p12 {
+    order: 2;
+  }
+  .hero-icon-arrow2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+  }
+  .hero-arrow-2 {
+       margin-left: 10px;
+  }
+  .hero-text-icon {
+    padding-left: 0px;
+    padding-top: 41px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    padding-left: 10px;
+  }
+  .hero-text-star-p2 {
+    padding-top: 8px;
+  }
+  .hero-img-desctop {
+    padding-top: 40px;
+    padding-left: 123px;
+    padding-right: 123px;
+  }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 100px;
+    }
+    .hero-section {
+        max-width: 1080px;
+        padding: 0 15px;
+      }
+
+
+  }
