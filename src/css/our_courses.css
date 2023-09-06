@@ -25,12 +25,33 @@ width: 335px;
 margin-top: 20px;
 margin-bottom: 40px;
 }
+
 .our_courses_list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    padding: 0;
 }
+
+ol {
+    list-style-type: none;
+ 
+}
+
+.card-number {
+  display: block;
+  text-align: right;
+  margin-right: 28px;
+  margin-top: 28px;
+
+ color: rgba(255, 255, 255, 0.4)
+
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+
 .our_courses_item {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
@@ -40,9 +61,9 @@ margin-bottom: 40px;
     width: 335px;
     height: 398px;
 
-}
+
 .our_courses_box {
-    padding-top: 88px;
+    padding-top: 28px;
     padding-left: 28px;
     padding-right: 28px;
     padding-bottom: 28px;
@@ -54,7 +75,7 @@ margin-bottom: 40px;
     justify-content: center;
     width: 32px;
     height: 32px;
-    margin-top: 28px;
+   
     background-color: #1D1D1D;;
     border-radius: 50%;
     border: 1px solid #1D1D1D;;
@@ -67,10 +88,12 @@ margin-bottom: 40px;
 stroke: #777777;
 }
 .subtitle_card {
+max-width: 279px;
 font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
 margin-bottom: 164px;
+margin-top: 28px;
 }
 .text_card {
 color: rgba(255, 255, 255, 0.50);
