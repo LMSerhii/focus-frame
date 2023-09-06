@@ -1,11 +1,9 @@
 
-.our_courses {
-    max-width: 335px;
-    padding: 0 20px;
+.our_courses .container {
     padding-top: 80px;
     margin: 0 auto;
 }
-.container {
+ {
 }
 .caption {
 font-size: 28px;
@@ -25,19 +23,58 @@ letter-spacing: -0.02em;
 
 width: 335px;
 margin-top: 20px;
+margin-bottom: 40px;
 }
 .our_courses_list {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 .our_courses_item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+
+
+    width: 335px;
+    height: 398px;
+
 }
 .our_courses_box {
+    padding-top: 88px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 28px;
 }
+
+.card-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-top: 28px;
+    background-color: #1D1D1D;;
+    border-radius: 50%;
+    border: 1px solid #1D1D1D;;
+}
+
+
 .our_courses_card {
 }
 .card-icon {
+stroke: #777777;
 }
 .subtitle_card {
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+margin-bottom: 164px;
 }
 .text_card {
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
 }
