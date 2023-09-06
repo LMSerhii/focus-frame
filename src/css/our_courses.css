@@ -3,19 +3,19 @@
     padding-top: 80px;
     margin: 0 auto;
 }
- {
-}
+ 
+
 .caption {
 font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: -0.04em;
-
 }
+
 .caption_span {
 color: var(--brown);
-
 }
+
 .desc {
 font-size: 14px;
 line-height: 1.28;
@@ -44,7 +44,7 @@ ol {
   margin-right: 28px;
   margin-top: 28px;
 
- color: rgba(255, 255, 255, 0.4)
+ color: rgba(255, 255, 255, 0.4);
 
 font-size: 14px;
 line-height: 1.29;
@@ -60,6 +60,7 @@ letter-spacing: -0.02em;
 
     width: 335px;
     height: 398px;
+}
 
 
 .our_courses_box {
@@ -76,25 +77,31 @@ letter-spacing: -0.02em;
     width: 32px;
     height: 32px;
    
-    background-color: #1D1D1D;;
+    background-color: #1D1D1D;
     border-radius: 50%;
-    border: 1px solid #1D1D1D;;
+    border: 1px solid #1D1D1D;
 }
 
 
 .our_courses_card {
 }
+
+
 .card-icon {
 stroke: #777777;
 }
+
+
 .subtitle_card {
-max-width: 279px;
+max-width: 250px;
 font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
 margin-bottom: 164px;
 margin-top: 28px;
 }
+
+
 .text_card {
 color: rgba(255, 255, 255, 0.50);
 font-size: 14px;
