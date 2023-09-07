@@ -1,0 +1,184 @@
+/**
+  |============================
+  | Mobile
+  |============================
+*/
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 335px;
+  padding: 40px 0;
+}
+.title {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -1.12px;
+  margin-bottom: 20px;
+}
+.title-accent {
+  color: var(--brown);
+}
+.form-desc {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  margin-bottom: 40px;
+  max-width: 295px;
+}
+.form-input {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 14px 18px;
+  background-color: inherit;
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.29;
+  opacity: 0.7;
+}
+.input-message {
+  margin-bottom: 40px;
+}
+textarea {
+  resize: none;
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+.send-btn {
+  display: block;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  background: var(--white);
+  height: 48px;
+}
+.send-btn:hover,
+.send-btn:focus {
+  background-color: inherit;
+  color: var(--brown);
+  background: #1d1d1d;
+}
+.btn-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.34;
+}
+.policy {
+  text-decoration-line: underline;
+}
+
+/* Hidden styles */
+
+.photo-container {
+  display: none;
+}
+
+/**
+  |============================
+  | Tablet
+  |============================
+*/
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -1.92px;
+  }
+  .form-container {
+    max-width: 480px;
+  }
+  .form-desc {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+    margin-bottom: 40px;
+  }
+  .form-input {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 20px 18px;
+    margin-bottom: 14px;
+  }
+  .input-message {
+    margin-bottom: 40px;
+  }
+  .send-btn {
+    font-size: 18px;
+    line-height: 1.55;
+    height: 60px;
+  }
+  .btn-desc {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+
+/**
+  |============================
+  | Desktop
+  |============================
+*/
+@media screen and (min-width: 1280px) {
+  .signup-section-container {
+    display: flex;
+  }
+  .form-container {
+    margin-right: 60px;
+  }
+  .photo-container {
+    display: flex;
+    align-items: baseline;
+    padding: 40px 0;
+  }
+  .photo-one-container {
+    border-radius: 1000px;
+    background: var(--brown);
+    width: 180px;
+    height: 288px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .photo-one-container .photo-one {
+    position: absolute;
+    top: 25%;
+    left: -13%;
+  }
+  .photo-two-container {
+    border-radius: 1000px;
+    background: var(--gray);
+    width: 350px;
+    height: 540px;
+    padding: 156px 50px 88px 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form-container {
+    margin-right: 200px;
+  }
+  .photo-one-container {
+    border-radius: 1000px;
+    background: var(--brown);
+    width: 190px;
+    height: 288px;
+    position: relative;
+  }
+  .photo-two-container {
+    border-radius: 1000px;
+    background: var(--gray);
+    width: 350px;
+    height: 540px;
+    padding: 139px 48px 88px 48px;
+  }
+}

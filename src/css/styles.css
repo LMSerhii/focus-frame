@@ -1,4 +1,3 @@
-
 /* variables */
 @import url('./variables.css');
 
@@ -15,7 +14,10 @@
 /* @import url(''); */
 
 /* hero */
-/* @import url(''); */
+ @import url('./hero.css');
+ @import url('./media_hero.css');
+ @import url('./fonts.css');
+ @import url('./variables.css');
 
 /* about us */
 /* @import url(''); */
@@ -24,11 +26,10 @@
 @import url('./our_courses.css');
 
 /* sign up */
-/* @import url(''); */
+@import url('./signup.css');
 
 /* reviews */
 /* @import url(''); */
 
 /* footer */
 /* @import url(''); */
-
