@@ -1,6 +1,7 @@
 
 .our_courses .container {
-    padding-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0 auto;
 }
  
@@ -21,7 +22,7 @@ font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
 
-width: 335px;
+width: 330px;
 margin-top: 20px;
 margin-bottom: 40px;
 }
@@ -33,26 +34,25 @@ margin-bottom: 40px;
     padding: 0;
 }
 
-ol {
+
+.our_courses_list {
+    
     list-style-type: none;
- 
-}
-
-.card-number {
-  display: block;
-  text-align: right;
-  margin-right: 28px;
-  margin-top: 28px;
-
- color: rgba(255, 255, 255, 0.4);
-
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-}
-
+    counter-reset: item;
+    padding: 0;
+  }
 
 .our_courses_item {
+    position: relative;
+
+    counter-increment: item;
+    margin-bottom: 10px; /* Просторовий відступ між картками */
+    color: rgba(255, 255, 255, 0.4);
+
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
@@ -60,17 +60,37 @@ letter-spacing: -0.02em;
 
     width: 335px;
     height: 398px;
+
+
+  }
+.our_courses_item::before {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+
+    content: "0" counter(item) ""; /* Додаємо номери з лідируючими "0" */
+    font-weight: bold;
+    margin-right: 5px; /* Просторовий відступ між номером і текстом */
+  }
+
+
+
+.icon-link {
+    display: flex;
+    justify-content: end;
 }
 
 
 .our_courses_box {
+    position: relative;
     padding-top: 28px;
     padding-left: 28px;
     padding-right: 28px;
     padding-bottom: 28px;
 }
 
-.card-icon-wrapper {
+.card-button {
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +103,8 @@ letter-spacing: -0.02em;
 }
 
 
-.our_courses_card {
+.card-button:hover {
+    background-color: var(--brown);
 }
 
 
@@ -91,9 +112,13 @@ letter-spacing: -0.02em;
 stroke: #777777;
 }
 
+.card-icon:hover {
+    stroke: var(--white);
+}
 
 .subtitle_card {
-max-width: 250px;
+color: var(--white);
+max-width: 246px;
 font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
@@ -107,4 +132,5 @@ color: rgba(255, 255, 255, 0.50);
 font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
+max-width: 265px;
 }
