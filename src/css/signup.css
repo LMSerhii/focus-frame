@@ -3,9 +3,6 @@
   | Mobile
   |============================
 */
-.signup-section-container {
-  border: 1px solid blue;
-}
 .form-container {
   display: flex;
   flex-direction: column;
@@ -136,11 +133,14 @@ textarea {
 @media screen and (min-width: 1280px) {
   .signup-section-container {
     display: flex;
-    border: 1px solid blue;
+  }
+  .form-container {
+    margin-right: 60px;
   }
   .photo-container {
     display: flex;
-    border: 1px solid greenyellow;
+    align-items: baseline;
+    padding: 40px 0;
   }
   .photo-one-container {
     border-radius: 1000px;
@@ -148,11 +148,37 @@ textarea {
     width: 180px;
     height: 288px;
     position: relative;
-    border: 1px solid red;
+    margin-right: 20px;
   }
   .photo-one-container .photo-one {
     position: absolute;
     top: 25%;
-    left: -15%;
+    left: -13%;
+  }
+  .photo-two-container {
+    border-radius: 1000px;
+    background: var(--gray);
+    width: 350px;
+    height: 540px;
+    padding: 156px 50px 88px 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form-container {
+    margin-right: 200px;
+  }
+  .photo-one-container {
+    border-radius: 1000px;
+    background: var(--brown);
+    width: 190px;
+    height: 288px;
+    position: relative;
+  }
+  .photo-two-container {
+    border-radius: 1000px;
+    background: var(--gray);
+    width: 350px;
+    height: 540px;
+    padding: 139px 48px 88px 48px;
   }
 }
