@@ -23,7 +23,7 @@
 /* @import url(''); */
 
 /* our courses */
-/* @import url(''); */
+@import url('./our_courses.css');
 
 /* sign up */
 @import url('./signup.css');
