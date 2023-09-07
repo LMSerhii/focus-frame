@@ -14,7 +14,7 @@
   font-family: DM Sans;
   color: var(--white);
   font-size: 40px;
-  font-style: normal;
+  
   font-weight: 500;
   line-height: 44px;
   letter-spacing: -1.6px;
@@ -24,7 +24,7 @@
 .hero-title-span {
   color: var(--brown);
   font-size: 40px;
-  font-style: italic;
+  
   font-weight: 400;
   line-height: 44px;
   letter-spacing: -1.6px;
@@ -32,7 +32,7 @@
 .hero-title-p {
   color: var(--white);
   font-size: 14px;
-  font-style: normal;
+  
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
@@ -52,7 +52,7 @@
   width: 67px;
   color: var(--white);
   font-size: 14px;
-  font-style: normal;
+  
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
@@ -120,14 +120,15 @@
   padding: 12px;
   background: var(--brown);
   margin-top: 40px;
-  margin-left: 38px;
+  /* margin-left: 38px; */
+  margin-left: auto;
 }
 
 .hero-text-star-p1 {
   width: 57px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  font-style: normal;
+ 
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.64px;
@@ -140,7 +141,7 @@
   width: 57px;
   color: var(--white);
   font-size: 16px;
-  font-style: normal;
+ 
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.64px;
