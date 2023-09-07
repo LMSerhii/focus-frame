@@ -65,11 +65,13 @@ margin-bottom: 40px;
 
 @media only screen and (min-width: 260px) and (max-width: 375px) {
     .desc {
+        width: 100%;
         max-width: 380px;
         }
     }
 
 
+ 
 @media only screen and (min-width: 768px) {
 .desc {
     width: 380px;
@@ -130,6 +132,15 @@ margin-bottom: 40px;
     width: 335px;
     height: 398px;
   }
+
+  @media only screen and (min-width: 260px) and (max-width: 375px) {
+    .our_courses_item {
+        width: 100%;
+        max-width: 335px;
+        }
+    }
+
+
 
 
   @media only screen and (min-width: 768px) {
