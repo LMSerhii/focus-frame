@@ -20,7 +20,7 @@
     letter-spacing: -2.4px;
 
     padding-top: 64px;
-    padding-left: 17px; 
+    padding-left: 17px;
     padding-right: 145px;
     padding-bottom: 0px;
   }
@@ -76,12 +76,12 @@
     align-items: normal;
   }
   .hero-arrow-2 {
-       margin-left: 10px;
+    margin-left: 10px;
   }
   .hero-text-icon {
     padding-left: 0px;
     padding-top: 41px;
-    
+
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -98,17 +98,60 @@
   }
 }
 
-
-
 @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-      padding: 0 100px;
-    }
-    .hero-section {
-        max-width: 1080px;
-        padding: 0 15px;
-      }
-
-
+  .container {
+    max-width: 1280px;
+   
+    padding: 0 100px;
   }
+  .hero-section {
+    max-width: 1080px;
+    padding: 0 15px;
+    max-height: 600px;
+  }
+  .hero-title-h {
+    padding-left: 35px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+    padding-top: 80px;
+  }
+
+  .hero-title-span {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+  }
+
+  .hero-icon-arrow2 {
+        justify-content:flex-start;
+  }
+ .hero-ison-star {
+    margin-left: 55px;
+ }
+ .hero-title-p {
+    padding-left: 35px;
+    padding-right: 335px;
+ }
+ .hero-item-imga {
+padding-top: 136px;
+ }
+.hero-text-icon {
+    padding-top: 136px;
+}
+.hero-ison-star {
+    margin-top: 136px;
+}
+.hero-text-p12 {
+    padding-top: 136px;
+}
+
+.hero-img-desctop {
+    position: relative;
+    top: -319px;
+    left: 93px;
+   
+}
+}
