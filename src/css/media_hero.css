@@ -18,10 +18,8 @@
     font-weight: 500;
     line-height: 64px;
     letter-spacing: -2.4px;
-    
+
     padding-top: 64px;
-    /* padding-left: 17px;
-    padding-right: 145px; */
     padding-bottom: 0px;
     max-width: 516px;
   }
@@ -35,8 +33,6 @@
     max-width: 768px;
   }
   .hero-title-p {
-    /* padding-left: 22px;
-    padding-right: 250px; */
     padding-top: 20px;
     max-width: 402px;
   }
@@ -70,7 +66,7 @@
 
     left: -111px;
   }
-  
+
   .hero-text-p12 {
     order: 2;
   }
@@ -84,7 +80,6 @@
     left: -19px;
     top: -5px;
     margin-top: 8px;
-    
   }
   .hero-text-icon {
     padding-top: 41px;
@@ -97,7 +92,7 @@
     left: -30px;
     top: 4px;
     margin-left: 10px;
-     margin-right: 40px; 
+    margin-right: 40px;
   }
   .hero-text-star-p1 {
     padding-left: 0;
@@ -117,7 +112,6 @@
     left: -68px;
   }
   .hero-img-desctop {
-    
     padding-left: 123px;
     padding-right: 123px;
   }
@@ -135,18 +129,17 @@
     max-height: 600px;
   }
   .hero-title-h {
-   max-width: 563px;
+    max-width: 563px;
     font-size: 64px;
     font-weight: 500;
     line-height: 68px;
     letter-spacing: -2.56px;
     padding-top: 80px;
-    
   }
-.hero-item {
-  max-width: 1000px;
-  max-height: 240px;
-}
+  .hero-item {
+    max-width: 1000px;
+    max-height: 240px;
+  }
   .hero-title-span {
     font-size: 64px;
     font-weight: 400;
@@ -162,7 +155,7 @@
   }
   .hero-title-p {
     font-family: DM Sans;
-   
+
     max-width: 404px;
   }
   .hero-item-imga {
@@ -186,8 +179,6 @@
     top: -279px;
     left: 118px;
     padding: 0px;
-   
-  
   }
 }
 
@@ -207,20 +198,17 @@
     left: 224px;
     padding: 0px;
     padding: 0px 100px 0px 0px;
-  
   }
-.hero-item {
-  max-width: 1000px;
-  max-height: 240px;
-}
-
-   .hero-text-p12 {
+  .hero-item {
+    max-width: 1000px;
     max-height: 240px;
-   }
+  }
 
-.hero-icon-arrow2 {
-  max-height: 240px;
-}
+  .hero-text-p12 {
+    max-height: 240px;
+  }
 
-
+  .hero-icon-arrow2 {
+    max-height: 240px;
+  }
 }
