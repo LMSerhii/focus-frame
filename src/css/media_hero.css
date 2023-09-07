@@ -143,7 +143,10 @@
     padding-top: 80px;
     
   }
-
+.hero-item {
+  max-width: 1000px;
+  max-height: 240px;
+}
   .hero-title-span {
     font-size: 64px;
     font-weight: 400;
@@ -173,8 +176,11 @@
   }
   .hero-text-p12 {
     padding-top: 136px;
+    max-height: 240px;
   }
-
+  .hero-icon-arrow2 {
+    max-height: 240px;
+  }
   .hero-img-desctop {
     position: relative;
     top: -279px;
@@ -203,11 +209,18 @@
     padding: 0px 100px 0px 0px;
   
   }
+.hero-item {
+  max-width: 1000px;
+  max-height: 240px;
+}
 
+   .hero-text-p12 {
+    max-height: 240px;
+   }
 
-   
-
-
+.hero-icon-arrow2 {
+  max-height: 240px;
+}
 
 
 }
