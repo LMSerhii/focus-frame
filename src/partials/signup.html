@@ -1,52 +1,117 @@
 <section class="container">
-  <form>
-    <div class="form-container">
-      <h2 class="title">Sign <span class="title-accent">Up</span></h2>
-      <p class="form-desc">
-        Please use the form below to contact us. Enter your name, email, and
-        message and we'll get back to you shortly.
-      </p>
-      <label for="user-name">
-        <input
-          class="form-input"
-          type="text"
-          name="user-name"
-          id="user-name"
-          placeholder="Enter your name"
-          pattern="[A-Za-z]{3,}"
-          title="The name should contain at least 3 characters"
-          required
+  <div class="signup-section-container">
+    <form>
+      <div class="form-container">
+        <h2 class="title">Sign <span class="title-accent">Up</span></h2>
+        <p class="form-desc">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
+        <label for="user-name">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your name"
+            pattern="[A-Za-z]{3,}"
+            title="The name should contain at least 3 characters"
+            required
+          />
+        </label>
+        <label for="user-email">
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            title="Wrong email"
+            required
+          />
+        </label>
+        <label for="user-message">
+          <textarea
+            class="form-input input-message"
+            name="user-message"
+            id="user-message"
+            rows="6"
+            placeholder="Message"
+            pattern="[A-Za-z]{3,}"
+            required
+          ></textarea>
+        </label>
+        <button class="send-btn" type="submit">Send</button>
+        <p class="btn-desc">
+          By clicking on “Send” button, you agree to our
+          <a class="policy" href="#">Privacy Policy</a>, and allow Promodo to
+          use this information for marketing purposes.
+        </p>
+      </div>
+    </form>
+    <div class="photo-container">
+      <!-- Desktop screen -->
+      <picture class="photo-one-container">
+        <source
+          media="(min-width: 1280px) and (max-width: 1439px)"
+          class="photo-one"
+          srcset="
+            ./img/Sing_up/sing_up_camera1-1280.png    1x,
+            ./img/Sing_up/sing_up_camera1-1280-2x.png 2x
+          "
+          width="150"
+          height="142"
         />
-      </label>
-      <label for="user-email">
-        <input
-          class="form-input"
-          type="email"
-          name="user-email"
-          id="user-email"
-          placeholder="Enter your email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          title="Wrong email"
-          required
+        <source
+          media="(min-width: 1440px)"
+          class="photo-one"
+          srcset="
+            ./img/Sing_up/sing_up_camera1-1440.png 1x,
+            ./img/Sing_up/sing_up_camera1-1440.png 2x
+          "
+          width="163"
+          height="154"
         />
-      </label>
-      <label for="user-message">
-        <textarea
-          class="form-input input-message"
-          name="user-message"
-          id="user-message"
-          rows="6"
-          placeholder="Message"
-          pattern="[A-Za-z]{3,}"
-          required
-        ></textarea>
-      </label>
-      <button class="send-btn" type="submit">Send</button>
-      <p class="btn-desc">
-        By clicking on “Send” button, you agree to our
-        <a class="policy" href="#">Privacy Policy</a>, and allow Promodo to use
-        this information for marketing purposes.
-      </p>
+        <img
+          class="photo-one"
+          src="./img/Sing_up/sing_up_camera1-1280.png,"
+          alt="#"
+          width=""
+          height=""
+        />
+      </picture>
+      <picture class="photo-two-container">
+        <!-- Desktop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/Sing_up/Sing_up_camera2-1440.png 1x,
+            ./img/Sing_up/sing_up_camera2-1440.png 2x
+          "
+        />
+        <img
+          class="photo-two"
+          src="./img/Sing_up/Sing_up_camera2-1440.png"
+          alt=""
+          width="254"
+          height=""
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/Sing_up/sing_up_camera2-1440.png 1x,
+            ./img/Sing_up/sing_up_camera2-1440.png 2x
+          "
+        />
+        <img
+          class="photo-two"
+          src="./img/Sing_up/sing_up_camera2-1440.png"
+          alt="#"
+          width=""
+          height=""
+        />
+      </picture>
     </div>
-  </form>
+  </div>
 </section>

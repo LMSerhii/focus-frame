@@ -3,18 +3,20 @@
   | Mobile
   |============================
 */
-
+.signup-section-container {
+  border: 1px solid blue;
+}
 .form-container {
   display: flex;
   flex-direction: column;
   max-width: 335px;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .title {
   color: var(--white);
   font-size: 28px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 1.15;
   letter-spacing: -1.12px;
   margin-bottom: 20px;
 }
@@ -25,7 +27,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.28px;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
   max-width: 295px;
 }
 .form-input {
@@ -38,6 +40,7 @@
   color: var(--white);
   font-size: 14px;
   line-height: 1.29;
+  opacity: 0.7;
 }
 .input-message {
   margin-bottom: 40px;
@@ -45,29 +48,22 @@
 textarea {
   resize: none;
 }
-input::placeholder,
-textarea::placeholder {
-  color: var(--white);
-  opacity: 0.7;
-}
+
 .form-input:hover,
 .form-input:focus {
   border-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
 }
 .send-btn {
-  display: flex;
+  display: block;
   color: var(--black);
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
-  /* padding: 14px 127px; */
-  justify-content: center;
-  align-items: center;
   margin-bottom: 20px;
   border: none;
   border-radius: 12px;
   background: var(--white);
-  /* min-width: 100%; */
   height: 48px;
 }
 .send-btn:hover,
@@ -83,6 +79,12 @@ textarea::placeholder {
 }
 .policy {
   text-decoration-line: underline;
+}
+
+/* Hidden styles */
+
+.photo-container {
+  display: none;
 }
 
 /**
@@ -116,10 +118,9 @@ textarea::placeholder {
     margin-bottom: 40px;
   }
   .send-btn {
-    display: inline-flex;
-    padding: 16px 216px;
-    justify-content: center;
-    align-items: center;
+    font-size: 18px;
+    line-height: 1.55;
+    height: 60px;
   }
   .btn-desc {
     font-size: 14px;
@@ -133,4 +134,25 @@ textarea::placeholder {
   |============================
 */
 @media screen and (min-width: 1280px) {
+  .signup-section-container {
+    display: flex;
+    border: 1px solid blue;
+  }
+  .photo-container {
+    display: flex;
+    border: 1px solid greenyellow;
+  }
+  .photo-one-container {
+    border-radius: 1000px;
+    background: var(--brown);
+    width: 180px;
+    height: 288px;
+    position: relative;
+    border: 1px solid red;
+  }
+  .photo-one-container .photo-one {
+    position: absolute;
+    top: 25%;
+    left: -15%;
+  }
 }
