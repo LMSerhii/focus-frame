@@ -12,6 +12,11 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+    .our_courses {
+      padding: 75px 0;
+    }
+  }
 
 @media only screen and (min-width: 768px) {
     .our_courses-wrapper {
@@ -22,36 +27,7 @@
   }
 
 
-/* 
-@media only screen and (min-width: 1280px) {
-  .benefits-container {
-    max-width: 1132px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .benefits-list {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 44px;
-    column-gap: 88px;
-  }
-}
-@media only screen and (max-width: 767.98px) {
-  .benefits-list-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .benefits-list-item {
-    flex-basis: calc((100% - 88px) / 2);
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .benefits-list-item {
-    flex-basis: calc((100% - 88px * 2) / 3);
-  }
-} */
- 
+
 
 .caption {
 font-size: 28px;
@@ -87,16 +63,22 @@ margin-bottom: 40px;
 }
 
 
+@media only screen and (min-width: 260px) and (max-width: 375px) {
+    .desc {
+        max-width: 380px;
+        }
+    }
+
+
 @media only screen and (min-width: 768px) {
 .desc {
-    width: 375px;
+    width: 380px;
     margin-top: 0;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     }
 }
-
 
 
 .our_courses_list {
@@ -160,6 +142,16 @@ margin-bottom: 40px;
     }
 }
 
+@media only screen and (min-width: 1280px) {
+    .our_courses_item {
+
+        flex-basis: calc((100% - 40px) / 3);
+
+        width: 347px;
+        
+    }
+}
+
 
 .our_courses_item::before {
     position: absolute;
@@ -213,6 +205,10 @@ margin-bottom: 40px;
     background-color: #1D1D1D;
     border-radius: 50%;
     border: 1px solid #1D1D1D;
+
+    transition-property: background-color, stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -265,3 +261,8 @@ max-width: 265px;
     }
 }
 
+@media only screen and (min-width: 1280px) {
+    .text_card {
+        min-width: 281px;
+    }
+}
