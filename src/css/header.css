@@ -75,11 +75,9 @@
 .nav-link {
   display: block;
 
-  color: #fff;
+  color: var(--white);
   font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
 
