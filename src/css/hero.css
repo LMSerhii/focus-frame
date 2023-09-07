@@ -6,7 +6,7 @@
   margin-right: 20px; */
  max-width: 335px;
  margin: 0 auto;
-  /* padding: 0 20px; */
+   padding: 0 20px; 
   /* width: 375px; */
  
  
@@ -17,6 +17,7 @@
   /* padding-left: 50px; */
 }
 .hero-title-h {
+  font-family: DM Sans;
   color: #fff;
   /* font-size: 64px; */
   font-size: 40px;
@@ -28,8 +29,8 @@
   letter-spacing: -1.6px;
   /* padding-top: 80px; */
   padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   /* max-width: 295px;  */
  
 }
@@ -55,10 +56,10 @@
   padding-top: 20px;
   /* max-width: 418px; */
    /* max-width: 295px;  */
-   
+   font-family: DM Sans;
   padding-top: 20px;
-  padding-left: 20px;
-   padding-right: 20px; 
+  /* padding-left: 20px;
+   padding-right: 20px;  */
   
 }
 .hero-item {
@@ -70,15 +71,15 @@
     justify-content: flex-start;
     /* max-width: 335px; */
 }
-.hero-image {
-  /* padding-left: 50px;
-  padding-top: 136px; */
+/* .hero-image {
+   padding-left: 50px;
+  padding-top: 136px; 
 
-}
+} */
 
 .hero-text-icon {
   /* width: 82px; */
-  width: 81px;
+  width: 67px;
   color: #fff;
   /* font-size: 16px; */
   font-size: 14px;
@@ -88,12 +89,12 @@
   line-height: 18px;
   /* letter-spacing: -0.64px; */
   letter-spacing: -0.56px;
- 
+  font-family: DM Sans;
 
   /* position: relative; */
   top: -75px;
   left: 0px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 .hero-icon-arrow2 {
   padding-bottom: 50px;
@@ -117,19 +118,19 @@
   position: relative;
   top: 0px;
   /* left: 100px; */
-  left: 88px;
+  left: 67px;
 }
 .left-girl1 {
   position: relative;
   top: 0px;
-  left: 8px;
+  left: -13px;
 }
 
 .left-girl2 {
   position: relative;
   top: 0px;
   /* left: -95px; */
-  left: -71px;
+  left: -90px;
 }
 
 .hero-arrow-2 {
@@ -183,6 +184,7 @@
   padding-left: 12px;
   /* margin-bottom: 8px; */
   margin-bottom: 4px;
+  font-family: DM Sans;
 }
 
 .hero-text-star-p2 {
@@ -195,7 +197,7 @@
   line-height: 18px;
   letter-spacing: -0.64px;
   padding-left: 12px;
-
+  font-family: DM Sans;
  
 }
 
