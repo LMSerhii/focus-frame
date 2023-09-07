@@ -1,9 +1,56 @@
 
-.our_courses .container {
+.our_courses {
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0 auto;
 }
+
+
+@media only screen and (min-width: 768px) {
+  .our_courses {
+    padding: 50px 0;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .our_courses-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+
+
+/* 
+@media only screen and (min-width: 1280px) {
+  .benefits-container {
+    max-width: 1132px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 44px;
+    column-gap: 88px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .benefits-list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .benefits-list-item {
+    flex-basis: calc((100% - 88px) / 2);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .benefits-list-item {
+    flex-basis: calc((100% - 88px * 2) / 3);
+  }
+} */
  
 
 .caption {
@@ -12,6 +59,18 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: -0.04em;
 }
+
+
+@media only screen and (min-width: 768px) {
+.caption {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    }
+  }
+
+
 
 .caption_span {
 color: var(--brown);
@@ -27,11 +86,24 @@ margin-top: 20px;
 margin-bottom: 40px;
 }
 
+
+@media only screen and (min-width: 768px) {
+.desc {
+    width: 375px;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    }
+}
+
+
+
 .our_courses_list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0;
+    
 }
 
 
@@ -40,13 +112,28 @@ margin-bottom: 40px;
     list-style-type: none;
     counter-reset: item;
     padding: 0;
+    margin: 0;
+    margin-top: 40px;
   }
+
+
+@media only screen and (min-width: 768px) {
+    .our_courses_list {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    }
+}
+
 
 .our_courses_item {
     position: relative;
 
     counter-increment: item;
-    margin-bottom: 10px; /* Просторовий відступ між картками */
     color: rgba(255, 255, 255, 0.4);
 
     font-size: 14px;
@@ -60,9 +147,20 @@ margin-bottom: 40px;
 
     width: 335px;
     height: 398px;
-
-
   }
+
+
+  @media only screen and (min-width: 768px) {
+    .our_courses_item {
+
+        flex-basis: calc((100% - 20px) / 2);
+
+        width: 342px;
+        height: 452px;
+    }
+}
+
+
 .our_courses_item::before {
     position: absolute;
     top: 28px;
@@ -70,10 +168,16 @@ margin-bottom: 40px;
 
     content: "0" counter(item) ""; /* Додаємо номери з лідируючими "0" */
     font-weight: bold;
-    margin-right: 5px; /* Просторовий відступ між номером і текстом */
+    
   }
 
-
+@media only screen and (min-width: 768px) {
+    .our_courses_item::before {
+        top: 32px;
+        left: 32px;
+    }
+}
+  
 
 .icon-link {
     display: flex;
@@ -87,6 +191,15 @@ margin-bottom: 40px;
     padding-left: 28px;
     padding-right: 28px;
     padding-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+    .our_courses_box {
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+    }
 }
 
 .card-button {
@@ -126,6 +239,14 @@ margin-bottom: 164px;
 margin-top: 28px;
 }
 
+@media only screen and (min-width: 768px) {
+    .subtitle_card {
+        margin-top: 32px;
+        margin-bottom: 180px;
+    }
+}
+
+
 
 .text_card {
 color: rgba(255, 255, 255, 0.50);
@@ -134,3 +255,13 @@ line-height: 1.28;
 letter-spacing: -0.02em;
 max-width: 265px;
 }
+
+@media only screen and (min-width: 768px) {
+    .text_card {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        width: 260px;
+    }
+}
+
