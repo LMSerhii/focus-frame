@@ -41,7 +41,7 @@
 }
 
 .mentors-description {
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .mentors-name {
   color: var(--white);
@@ -94,6 +94,8 @@
     flex-wrap: nowrap;
     gap: 93px;
     justify-content: center;
+    padding-left: 84px;
+    padding-right: 32px;
   }
 }
 @media screen and (min-width: 1440px) {
