@@ -1,5 +1,5 @@
 .our-mentors {
-  padding: 80px 0;
+  padding: 40px 0;
   background-color: var(--black);
 }
 
@@ -21,13 +21,25 @@
 }
 .mentors-image {
   border-radius: 200px;
-  background: var(
-    --avatar-user-square-brianna-ware-neutral-background,
-    url(<path-to-image>),
-    lightgray 50% / cover no-repeat,
-    #e0e0e0
+  background: linear-gradient(
+    rgba(211, 211, 211, 0.5),
+    rgba(211, 211, 211, 0.5)
   );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+@media screen and (min-device-pixel-ratio: 2),
+  screen and(min-resolution: 192dpi),
+  screen and(min-resolution: 2dppx) {
+  .mentors-image {
+    background: linear-gradient(
+      rgba(211, 211, 211, 0.5),
+      rgba(211, 211, 211, 0.5)
+    );
+  }
+}
+
 .mentors-description {
   padding-top: 16px;
 }
@@ -39,9 +51,51 @@
   line-height: 1.2;
   margin-bottom: 4px;
 }
-.mentors-text{color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-size: 12px;;
-font-weight: 400;
-line-height: 1.33;
-letter-spacing: -0.24px;}
+.mentors-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.24px;
+}
+@media screen and (min-width: 768px) {
+  .mentors-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .mentors-name {
+    font-size: 28px;
+  }
+  .mentors-text {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    line-height: 1.29;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .mentors-container {
+    max-width: 690px;
+  }
+
+  .mentors-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 93px 100px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .mentors-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 93px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mentors-list {
+    gap: 113px;
+  }
+}
