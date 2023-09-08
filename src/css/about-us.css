@@ -12,6 +12,10 @@
     margin-bottom: 40px;
 }
 
+.about-us-list {
+    
+}
+
 .about-us-item {
     color: var(--white, #FFF);
     font-family: "DM Sans", sans-serif;
@@ -19,5 +23,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.28em;
-    letter-spacing: -0.28;
+    letter-spacing: -0.28px;
+}
+
+.about-us-item:not(:last-child) {
+    margin-bottom: 40px;
 }
