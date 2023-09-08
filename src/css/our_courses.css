@@ -5,6 +5,9 @@
     margin: 0 auto;
 }
 
+.our_courses-wrapper {
+    margin-bottom: 40px;
+}
 
 @media only screen and (min-width: 768px) {
   .our_courses {
@@ -22,11 +25,9 @@
     .our_courses-wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        margin-bottom: 50px;
     }
   }
-
-
 
 
 .caption {
@@ -34,6 +35,7 @@ font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: -0.04em;
+margin-bottom: 20px;
 }
 
 
@@ -57,9 +59,7 @@ font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
 
-width: 330px;
-margin-top: 20px;
-margin-bottom: 40px;
+max-width: 335px;
 }
 
 
@@ -74,7 +74,7 @@ margin-bottom: 40px;
  
 @media only screen and (min-width: 768px) {
 .desc {
-    width: 380px;
+    max-width: 381px;
     margin-top: 0;
     font-size: 16px;
     line-height: 1.25;
@@ -84,27 +84,24 @@ margin-bottom: 40px;
 
 @media only screen and (min-width: 1280px) {
     .desc {
-        width: 389px;
+        max-width: 405px;
         }
     }
 
     @media only screen and (min-width: 1440px) {
         .desc {
-            width: 541px;
+            max-width: 565px;
             }
         }
+
 
 
 .our_courses_list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
-}
 
 
-.our_courses_list {
-    
     list-style-type: none;
     counter-reset: item;
     padding: 0;
@@ -129,6 +126,8 @@ margin-bottom: 40px;
 .our_courses_item {
     position: relative;
 
+    padding: 28px;
+  
     counter-increment: item;
     color: rgba(255, 255, 255, 0.4);
 
@@ -141,8 +140,8 @@ margin-bottom: 40px;
     background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
 
 
-    width: 335px;
-    height: 398px;
+    max-width: 335px;
+    
   }
 
   @media only screen and (min-width: 260px) and (max-width: 375px) {
@@ -158,22 +157,24 @@ margin-bottom: 40px;
   @media only screen and (min-width: 768px) {
     .our_courses_item {
         flex-basis: calc((100% - 20px) / 2);
-        width: 342px;
-        height: 452px;
+        padding: 32px;
+      
+        max-width: 342px;
+        
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .our_courses_item {
         flex-basis: calc((100% - 40px) / 3);
-        width: 347px;
+        max-width: 347px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .our_courses_item {
         flex-basis: calc((100% - 40px) / 3);
-        width: 400px;
+        max-width: 400px;
     }
 }
 
@@ -203,20 +204,9 @@ margin-bottom: 40px;
 
 .our_courses_box {
     position: relative;
-    padding-top: 28px;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-bottom: 28px;
+
 }
 
-@media only screen and (min-width: 768px) {
-    .our_courses_box {
-        padding-top: 32px;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-bottom: 32px;
-    }
-}
 
 .card-button {
     
@@ -226,9 +216,9 @@ margin-bottom: 40px;
     width: 32px;
     height: 32px;
    
-    background-color: #1D1D1D;
+    background-color: var(--gray);
     border-radius: 50%;
-    border: 1px solid #1D1D1D;
+    border: 1px solid var(--gray);
 
     transition-property: background-color, stroke;
     transition-duration: 250ms;
@@ -242,11 +232,11 @@ margin-bottom: 40px;
 
 
 .card-icon {
-stroke: #777777;
+stroke: var(--icon-color);
 }
 
 .card-icon:hover {
-    stroke: var(--white);
+stroke: var(--white);
 }
 
 .subtitle_card {
@@ -273,7 +263,7 @@ color: rgba(255, 255, 255, 0.50);
 font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
-max-width: 265px;
+max-width: 279px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -281,18 +271,18 @@ max-width: 265px;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
-        width: 260px;
+        max-width: 278px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .text_card {
-        min-width: 281px;
+        max-width: 283px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .text_card {
-        min-width: 325px;
+        max-width: 336px;
     }
 }
