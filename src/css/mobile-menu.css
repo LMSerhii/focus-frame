@@ -1,1 +1,113 @@
 /* mobile-menu */
+
+
+.menu-box {
+
+    background-color: var(--brown);
+
+    max-width: 218px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+    margin-right: 0;
+  }
+  
+  .menu-btn {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .menu-btn:hover,
+  .menu-btn:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .icon-gamburger {
+    display: block;
+    width: 100%;
+    stroke: var(--background-color);
+  } */
+  
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  
+    background-color: var(--primary-background);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+  
+    height: 100%;
+    overflow-y: auto;
+  
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    margin-bottom: auto;
+  
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+  
+  .menu-container .menu-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  
+  .mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: auto;
+  }
+  
+  .link-mobile-menu {
+    color: var(--primary-color-text);
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    display: block;
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .link-mobile-menu:hover,
+  .link-mobile-menu:focus {
+    color: var(--color-button-nav);
+  }
+  
+
+  
+  

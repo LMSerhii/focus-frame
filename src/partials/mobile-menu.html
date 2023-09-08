@@ -1,1 +1,53 @@
 <!-- mobile-menu -->
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <div class="menu-box">
+      <button type="button" class="btn-menu-close js-close-menu">
+        <svg class="icon-crestik" width="8" height="8">
+          <use href="./images/icons.svg#icon-crestik"></use>
+        </svg>
+      </button>
+<!-- menu -->
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+      <a href="#about-us" class="link-mobile-menu">About us</a>
+    </li>
+    <li class="nav-item">
+      <a href="#our-courses" class="link-mobile-menu">Our courses</a>
+    </li>
+    <li class="nav-item">
+      <a href="#our-mentors" class="link-mobile-menu">Our mentors</a>
+    </li>
+    <li class="nav-item">
+      <a href="#reviews" class="link-mobile-menu">Reviews</a>
+    </li>
+    <li class="nav-item">
+      <a href="#contacts" class="link-mobile-menu">Contacts</a>
+    </li>
+  </ul>
+
+  <picture>
+    
+    <!-- Tablet screen -->
+    <source
+     media="(min-width: 768px)"
+     srcset="./img/Mobile-menu/Mobile-menu-tablet.jpg 1x, ./img/Mobile-menu/Mobile-menu-tablet@2x.jpg 2x"
+     type="image/jpg"
+    />
+    <!-- Mobile screen -->
+    <source
+     media="(max-width: 767px)"
+     srcset="./img/Mobile-menu/Mobile-menu-mob.jpg 1x, ./img/Mobile-menu/Mobile-menu-mob@2x.jpg 2x"
+     type="image/jpg"
+    />
+    <img
+     class="card-img"
+     src="./img/Mobile-menu/Mobile-menu-mob.jpg"
+     alt="fhotocamera"
+     width="329"
+     height="218"
+     loading="lazy"
+    />
+   </picture>
+    </div>
+  </div>
