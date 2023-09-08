@@ -1,0 +1,23 @@
+.about-us {
+    padding-top: 150px;
+    padding-bottom: 75px;
+}
+
+.about-us-title {
+    margin-bottom: 40px;
+}
+
+.about-us-img {
+    background-color: #121212;
+    margin-bottom: 40px;
+}
+
+.about-us-item {
+    color: var(--white, #FFF);
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28em;
+    letter-spacing: -0.28;
+}

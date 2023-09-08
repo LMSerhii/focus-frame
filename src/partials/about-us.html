@@ -3,7 +3,12 @@
         <h1 class="about-us-title">About <span class="span-about-us-title">Us</span></h1>
 
         <div class="about-us-content">
-            <img class="about-us-image" src="./img/About_as/About_as_mobile.jpg" alt="camera" />
+            <picture class="">
+                <source media="(min-width: 1280px)" srcset="./img/About_as/About_as_desctop.jpg 1x, ./img/About_as/About_as_desctop@2x.jpg 2x" />
+                <source media="(min-width: 768px)" srcset="./img/About_as/About_as_tablet.jpg 1x, ./img/About_as/About_as_tablet@2x.jpg 2x" />
+                <source media="(max-width: 767px)" srcset="./img/About_as/About_as_mobile.jpg 1x, ./img/About_as/About_as_mobile@2x.jpg 2x" />
+                <img class="about-us-img" src="../img/About_as/About_as_tablet.jpg" alt="camera" width="" height="">
+            </picture>
             <ul class="about-us-list list">
                 <li class="about-us-item">
                     <p class="">
