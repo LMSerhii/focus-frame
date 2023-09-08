@@ -14,7 +14,7 @@
 @import url('./mobile-menu.css');
 
 /* hero */
- /* @import url(''); */
+@import url('./hero.css'); 
 
  /* advertisement */
  @import url('./advertisement.css');
