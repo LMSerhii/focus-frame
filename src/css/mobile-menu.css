@@ -3,6 +3,7 @@
   
 .menu-container {
     position: absolute;
+    top: 0;
     right: 0;
     max-width: 228px;
     max-height: 812px;
