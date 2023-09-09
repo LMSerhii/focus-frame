@@ -42,6 +42,7 @@
     }
 } */
 
+/* Tablet screen */
 @media screen and (min-width: 768px) {
     .about-us-title {
         font-size: 48px;
@@ -66,26 +67,34 @@
     }
 }
 
+/* Desktop screen (1280px) */
 @media screen and (min-width: 1280px) {
-    .about-us-title {
-        font-size: 48px;
-        margin: 0;
-        margin-bottom: 50px;
+    .about-us-content {
+        display: flex;
+        align-items: center;
+        gap: 40px;
     }
 
     .about-us-img {
         margin: 0;
-        margin-bottom: 50px;
     }
 
     .about-us-list {
-        max-width: 600px;
-        display: flex;
-        align-items: flex-start;
-        gap: 40px;
+        gap: 20px;
     }
 
-    .about-us-item:not(:last-child) {
-        margin: 0;
+    .about-us-item {
+        font-size: 16px;
+    }
+}
+
+/* Desktop screen (1440px) */
+@media screen and (min-width: 1440px) {
+    .about-us-content {
+        gap: 50px;
+    }
+
+    .about-us-list {
+        gap: 40px;
     }
 }
