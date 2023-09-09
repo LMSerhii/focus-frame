@@ -63,23 +63,23 @@ letter-spacing: -2.56px;
 
 .hero-title-p {
   font-size: 14px;
-  display: block;
+  display: inline-block;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
-   padding-bottom: 40px;
+   
 }
 
 
 @media screen and (min-width: 768px) {
   .hero-title-p {
-   padding-right: 99px;
-   padding-bottom: 40px;
+   width: 418px;
+   
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-title-p {
-    padding-bottom: 136px;
+    
     padding-right: 0px;
     width: 418px;
   }
@@ -260,6 +260,14 @@ letter-spacing: -2.56px;
 }
 
 
+.textes-p {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1280px) {
+  .textes-p {
+    margin-bottom: 136px;
+  }
+}
 
 @media screen and (min-width: 768px) {
 }
