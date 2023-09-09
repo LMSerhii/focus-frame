@@ -2,10 +2,8 @@
 
 .marquee {
   overflow: hidden;
-  background-color: transparent;
-  border-top: 1px solid var(--gray);
-  border-bottom: 1px solid var(--gray);
   text-transform: uppercase;
+  /* Require attention: */
   /* font-weight: 500; */
   font-size: 28px;
   line-height: 1.14em;
@@ -18,6 +16,9 @@
 .marquee_inner {
   display: flex;
   overflow: hidden;
+  background-color: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .marquee_line {
@@ -27,7 +28,7 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
-  /* Needs attention: */
+  /* Require attention: */
   animation-duration: 5s;
   /* ================= */
   animation-timing-function: var(--animation);
@@ -62,6 +63,6 @@
     line-height: 1.08em;
   }
   .marquee_line {
-    padding: 24px;
+    padding: 24px 100px;
   }
 }
