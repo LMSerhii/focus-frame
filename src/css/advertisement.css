@@ -6,7 +6,6 @@
   border-top: 1px solid var(--gray);
   border-bottom: 1px solid var(--gray);
   text-transform: uppercase;
-  font-style: normal;
   /* font-weight: 500; */
   font-size: 28px;
   line-height: 1.14em;
@@ -28,8 +27,10 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
+  /* Needs attention: */
   animation-duration: 5s;
-  animation-timing-function: ease-in-out;
+  /* ================= */
+  animation-timing-function: var(--animation);
   animation-iteration-count: infinite;
 }
 
