@@ -18,7 +18,7 @@
     }
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 769px) {
     .menu-container {
    display: none;
     }
@@ -68,12 +68,12 @@
 
 
 .menu-img {
-    padding-top: 133px;
+    padding-top: 483px;
     width: 100%;
 }
 
 @media screen and (min-width: 768px) {
 .menu-img {
-    padding-top: 114px;
+    padding-top: 548px;
 }
 }
