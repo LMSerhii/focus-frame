@@ -11,15 +11,21 @@
 @import url('./header.css');
 
 /* mobile menu */
-/* @import url(''); */
+@import url('./mobile-menu.css');
 
 /* hero */
-/* @import url(''); */
+ /* @import url(''); */
+
+ /* advertisement */
+ @import url('./advertisement.css');
 
 /* about us */
 /* @import url(''); */
 
 /* our courses */
+@import url('./our_courses.css');
+
+/* our mentors */
 /* @import url(''); */
 
 /* sign up */
@@ -29,4 +35,4 @@
 @import url('./reviews.css');
 
 /* footer */
-/* @import url(''); */
+@import url('./footer.css');
