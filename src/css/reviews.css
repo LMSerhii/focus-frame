@@ -434,7 +434,7 @@
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.20);
         width: 530px;
-        height: 216px;
+        height: 100%;
     }
     .title-reviews-peoples {
         color: var(--white);
@@ -564,7 +564,7 @@
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.20);
         width: 610px;
-        height: 196px;
+        height: 100%;
     }
     .title-reviews-peoples {
         color: var(--white);
