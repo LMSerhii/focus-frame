@@ -1,10 +1,14 @@
 /* mobile-menu */
+/* .burger-menu {} */
+  
 .menu-container {
+    position: absolute;
+    right: 0;
     max-width: 228px;
     max-height: 812px;
     padding: 0;
-    background: var(--brown, #BEA69E);
-}
+    background: var(--brown, #BEA69E);}
+
 
 @media screen and (min-width: 768px) {
     .menu-container {
@@ -14,7 +18,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    .container {
+    .menu-container {
    display: none;
     }
   }
@@ -30,11 +34,7 @@
     right: 32px;
     }
   }
-
-.close-menu {}
-
-
-
+  
 .mobile-list {
     padding-left: 20px;
     padding-top: 180px;
