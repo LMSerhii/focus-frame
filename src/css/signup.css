@@ -50,7 +50,7 @@ textarea {
 .form-input:focus {
   border-color: rgba(255, 255, 255, 0.5);
   opacity: 1;
-  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--animation);
 }
 .send-btn {
   display: block;
@@ -63,7 +63,7 @@ textarea {
   border-radius: 12px;
   background: var(--white);
   height: 48px;
-  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--animation);
 }
 .send-btn:hover,
 .send-btn:focus {
