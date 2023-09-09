@@ -63,7 +63,6 @@
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        margin-top: 23px;
     }
     .text-reviews-peoples {
         color: rgba(255, 255, 255, 0.50);
@@ -141,7 +140,6 @@
     }
     .reviews-info {
         margin-right: 10px;
-        margin-top: 20px;
     }
     .text-info {
         flex: 1;
@@ -149,6 +147,7 @@
     .reviews-all {
         display: flex;
         align-items: center;
+        margin-top: 20px;
     }
 }
   @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -166,7 +165,7 @@
         font-weight: 500;
         line-height: 32px;
         letter-spacing: -1.12px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .hero-list-reviews {
         display: flex;
@@ -188,7 +187,6 @@
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        margin-top: 23px;
     }
     .text-reviews-peoples {
         color: rgba(255, 255, 255, 0.50);
@@ -266,7 +264,6 @@
     }
     .reviews-info {
         margin-right: 10px;
-        margin-top: 20px;
     }
     .text-info {
         flex: 1;
@@ -274,6 +271,7 @@
     .reviews-all {
         display: flex;
         align-items: center;
+        margin-top: 20px;
     }
 }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -313,7 +311,6 @@
         font-style: normal;
         font-weight: 500;
         line-height: 28px;
-        margin-top: 23px;
     }
     .text-reviews-peoples {
         color: rgba(255, 255, 255, 0.50);
@@ -393,7 +390,6 @@
     }
     .reviews-info {
         margin-right: 10px;
-        margin-top: 20px;
     }
     .text-info {
         flex: 1;
@@ -401,6 +397,7 @@
     .reviews-all {
         display: flex;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
   }
   
@@ -444,7 +441,6 @@
         font-style: normal;
         font-weight: 500;
         line-height: 28px;
-        margin-top: 23px;
     }
     .text-reviews-peoples {
         color: rgba(255, 255, 255, 0.50);
@@ -526,7 +522,6 @@
     }
     .reviews-info {
         margin-right: 10px;
-        margin-top: 20px;
     }
     .text-info {
         flex: 1;
@@ -534,6 +529,7 @@
     .reviews-all {
         display: flex;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
   }
   
@@ -575,7 +571,6 @@
         font-style: normal;
         font-weight: 500;
         line-height: 28px;
-        margin-top: 23px;
     }
     .text-reviews-peoples {
         color: rgba(255, 255, 255, 0.50);
@@ -659,7 +654,6 @@
     }
     .reviews-info {
         margin-right: 10px;
-        margin-top: 20px;
     }
     .text-info {
         flex: 1;
@@ -667,6 +661,7 @@
     .reviews-all {
         display: flex;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
   }
   
