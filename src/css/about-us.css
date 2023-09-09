@@ -4,16 +4,22 @@
 }
 
 .about-us-title {
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14em;
+    letter-spacing: -1.12px;
     margin-bottom: 40px;
+}
+
+.span-about-us-title {
+    color: #BEA69E;
 }
 
 .about-us-img {
     background-color: #121212;
     margin-bottom: 40px;
-}
-
-.about-us-list {
-    
 }
 
 .about-us-item {
@@ -28,4 +34,58 @@
 
 .about-us-item:not(:last-child) {
     margin-bottom: 40px;
+}
+
+/* @media screen and (max-width: 426px) {
+    .about-us-container .container{
+        margin: 0;
+    }
+} */
+
+@media screen and (min-width: 768px) {
+    .about-us-title {
+        font-size: 48px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us-img {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us-list {
+        max-width: 600px;
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .about-us-item:not(:last-child) {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-title {
+        font-size: 48px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us-img {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us-list {
+        max-width: 600px;
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .about-us-item:not(:last-child) {
+        margin: 0;
+    }
 }
