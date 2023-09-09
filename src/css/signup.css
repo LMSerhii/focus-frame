@@ -133,7 +133,7 @@ textarea {
   |============================
 */
 @media screen and (min-width: 1280px) {
-  .signup-section-container {
+  .global-section-container {
     display: flex;
   }
   .form-container {
