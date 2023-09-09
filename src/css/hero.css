@@ -6,7 +6,21 @@
 .hero-section-container {
   border-radius: 30px;
   background: var(--gray);
+  gap: 31px;
 }
+@media screen and (min-width: 768px) {
+  .hero-section-container {
+   gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-section-container {
+    gap: 20px;
+  }
+}
+
+
+
 
 .hero-section {
   padding-bottom: 150px;
@@ -14,7 +28,7 @@
 }
 
 .hero-title-h {
-  padding: 40px 20px 20px 20px;
+  margin-bottom: 20px;
   font-size: 40px;
   font-weight: 500;
   line-height: 44px;
@@ -27,33 +41,53 @@
     font-size: 60px;
     line-height: 64px;
     letter-spacing: -2.4px;
-    padding: 64px 0px 20px 32px;
+    
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-title-h {
-    padding: 80px 50px 20px 50px;
-    width: 570px;
+    font-size: 64px;
+
+font-weight: 500;
+line-height: 68px; 
+letter-spacing: -2.56px;
+    
   }
 }
+@media screen and (min-width: 1280px) {
+  .hero-title-h {
+    width: 563px;
+  }
+}
+
+
 .hero-title-p {
   font-size: 14px;
-  display: inline-block;
+  display: block;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
-  padding: 0px 20px 42px 20px;
+   padding-bottom: 40px;
 }
+
+
 @media screen and (min-width: 768px) {
   .hero-title-p {
-    width: 418px;
-    padding: 0px 0px 40px 32px;
+   padding-right: 99px;
+   padding-bottom: 40px;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-title-p {
-    padding: 0px 50px 136px 50px;
-    width: 504px;
+    padding-bottom: 136px;
+    padding-right: 0px;
+    width: 418px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title-p {
+    display: inline-block;
   }
 }
 .hero-title-span {
@@ -63,6 +97,20 @@
   letter-spacing: -1.6px;
   color: var(--brown);
 }
+
+@media screen and (min-width: 1280px) {
+  .hero-title-span {
+    font-size: 64px;
+    
+    font-weight: 500;
+    line-height: 68px; 
+    letter-spacing: -2.56px;
+  }
+}
+
+
+
+
 @media screen and (min-width: 768px) {
   .hero-title-span {
     font-size: 60px;
@@ -70,6 +118,11 @@
     letter-spacing: -2.4px;
   }
 }
+
+
+
+
+
 
 .hero-text-star-p1 {
   font-size: 14px;
@@ -102,16 +155,15 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
-  padding-top: 4px;
-  padding-left: 20px;
+  width: 67px;
 }
 @media screen and (min-width: 768px) {
   .hero-text-icon {
     width: 82px;
-    padding-left: 0px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.64px;
+    transform: translate(83px, 0px);
   }
 }
 .hero-arrow-2 {
@@ -122,9 +174,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero-arrow-2 {
-    position: relative;
-    top: 0px;
-    left: -30px;
+    transform: translate(83px, 0px);
   }
 }
 .hero-ison-star {
@@ -152,13 +202,27 @@
 }
 .star-icon {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .star-icon {
+    gap: 140px;
+    
+  }
 }
 @media screen and (min-width: 1280px) {
   .star-icon {
-    padding-left: 25px;
+    /* padding-left: 25px; */
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .star-icon {
+    margin-bottom: 50px;
+  }
+}
+
 .hero-text-p12 {
   display: flex;
   gap: 4px;
@@ -176,70 +240,94 @@
   height: 44px;
   border-radius: 100px;
   border: var(--gray);
-  flex-direction: column;
-  flex-wrap: wrap;
+  
+  
 }
+
+/* .textes-p > p {margin-bottom: 40px;} */
+
+.textes {
+  display: flex;
+  flex-direction: column;
+  width: 107px;
+}
+@media screen and (min-width: 768px) {
+  .textes {
+   gap: 18px;
+   width: 135px;
+   flex-direction: row;
+  }
+}
+
+
 
 @media screen and (min-width: 768px) {
 }
 .star {
   display: flex;
-  padding-right: 55px;
+
   gap: 12px;
 }
 @media screen and (min-width: 768px) {
   .star {
-    padding-right: 284px;
+   
   }
 }
 @media screen and (min-width: 1280px) {
   .star {
-    padding-right: 200px;
+    /* padding-right: 200px; */
   }
 }
 @media screen and (min-width: 1440px) {
   .star {
-    padding-right: 305px;
+    /* padding-right: 305px; */
   }
+}
+
+
+.hero-icon-arrow2 {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap;
+  width: 87px;
+  gap: 4px;
+  align-items: center; */
+  align-items: center;
+  
 }
 @media screen and (min-width: 768px) {
   .hero-icon-arrow2 {
-    align-items: flex-start;
-    flex-wrap: wrap;
     flex-direction: column;
-    position: relative;
-    top: -55px;
-    left: 156px;
+    align-items: flex-start;
+    
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-icon-arrow2 {
-    padding-left: 33px;
+    
   }
 }
 .hero-img-desctop {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 @media screen and (min-width: 768px) {
   .hero-img-desctop {
-    width: 393px;
+    
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-img-desctop {
-    padding-right: 50px;
-    padding-top: 80px;
-    width: 447px;
+    
+    width: 397px; 
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-img-desctop {
-    padding-right: 100px;
-    max-width: 600px;
-    width: 494px;
+    
+    
   }
 }
 
@@ -250,43 +338,34 @@
     margin-left: auto;
     margin-right: auto;
   }
-
-  .star {
-    padding-right: 20px;
-  }
 }
 
-.hero-icon-arrow2 {
-  display: inline-flex;
-  width: 105px;
-  align-items: center;
-  gap: 4px;
-}
+
 
 .icon-girl2 {
-  position: relative;
-  left: 87px;
-  top: 0px;
+  position: absolute;
+width: 44px;
+height: 44px;
+  transform: translate(67px, 0px);
 }
 .icon-boy1 {
-  position: relative;
-  left: 53px;
-  top: -45px;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  transform: translate(35px, 0px);
 }
 .icon-girl1 {
-  position: relative;
-  left: 20px;
-
-  top: -90px;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  transform: translate(2px, 0px);
 }
 
 @media screen and (min-width: 768px) {
   .icon-girl1 {
     width: 54px;
     height: 54px;
-    position: relative;
-    left: 20px;
-    top: -106px;
+    
   }
 }
 
@@ -294,9 +373,7 @@
   .icon-girl2 {
     width: 54px;
     height: 54px;
-    position: relative;
-    left: 103px;
-    top: 0px;
+    
   }
 }
 
@@ -304,9 +381,7 @@
   .icon-boy1 {
     width: 54px;
     height: 54px;
-    position: relative;
-    left: 60px;
-    top: -52px;
+    
   }
 }
 
@@ -356,14 +431,55 @@
 @media screen and (min-width: 1280px) {
   .hero-section-container {
     flex-direction: row;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
-
+@media screen and (min-width: 1440px) {
+  .hero-section-container {
+    padding-right: 100px;
+    gap: 130px;
+  }
+}
 .container-one {
-  display: flex;
-  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-one {
+    padding-top: 64px;
+    padding-right: 155px;
+    padding-left: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-one {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 .container-two {
   display: flex;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+@media screen and (min-width: 768px) {
+  .container-two {
+    
+    padding-right: 155px;
+    padding-left: 156px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-two {
+    
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
