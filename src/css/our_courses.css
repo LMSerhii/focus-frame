@@ -201,11 +201,17 @@ max-width: 335px;
 }
   
 
-.icon-link {
-    display: flex;
-    justify-content: end;
+.wrapper-icon {
+  display: flex;
+  justify-content: end;  
+  margin-bottom: 28px;
 }
 
+@media only screen and (min-width: 768px) {
+    .wrapper-icon {
+    margin-bottom: 32px;
+    }
+}
 
 .our_courses_box {
     position: relative;
@@ -218,6 +224,7 @@ max-width: 335px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     width: 32px;
     height: 32px;
    
@@ -251,12 +258,11 @@ font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
 margin-bottom: 164px;
-margin-top: 28px;
+
 }
 
 @media only screen and (min-width: 768px) {
     .subtitle_card {
-        margin-top: 32px;
         margin-bottom: 180px;
     }
 }
