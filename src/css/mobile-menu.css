@@ -1,6 +1,25 @@
 /* mobile-menu */
 
 
+/* .backdrop {
+  background: rgba(18, 18, 18, 0.40);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+} */
+
+
+
 .menu-box {
 
     background-color: var(--brown);

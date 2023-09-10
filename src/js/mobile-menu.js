@@ -17,6 +17,8 @@ console.log('world');
     };
     openMenuBtn.addEventListener("click", toggleMenu);
     closeMenuBtn.addEventListener("click", toggleMenu);
+
+ 
   
     // Закрываем мобильное меню на более широких экранах
     // в случае изменения ориентации устройства.
