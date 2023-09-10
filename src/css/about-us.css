@@ -5,9 +5,6 @@
 
 .about-us-title {
     color: #FFF;
-    font-family: "DM Sans", sans-serif;
-    font-style: normal;
-    font-weight: 500;
     line-height: 1.14em;
     letter-spacing: -1.12px;
     margin-bottom: 40px;
@@ -24,16 +21,21 @@
 
 .about-us-item {
     color: var(--white, #FFF);
-    font-family: "DM Sans", sans-serif;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.28em;
     letter-spacing: -0.28px;
 }
 
 .about-us-item:not(:last-child) {
     margin-bottom: 40px;
+}
+
+.about-us-item .about-us-first-text {
+    max-width: 335px;
+}
+
+.about-us-item .about-us-second-text {
+    max-width: 335px;
 }
 
 /* @media screen and (max-width: 426px) {
@@ -56,7 +58,6 @@
     }
 
     .about-us-list {
-        max-width: 600px;
         display: flex;
         align-items: flex-start;
         gap: 40px;
@@ -64,6 +65,14 @@
 
     .about-us-item:not(:last-child) {
         margin: 0;
+    }
+
+    .about-us-item .about-us-first-text {
+        max-width: 280px;
+    }
+    
+    .about-us-item .about-us-second-text {
+        max-width: 280px;
     }
 }
 
@@ -86,6 +95,15 @@
     .about-us-item {
         font-size: 16px;
     }
+
+    .about-us-item .about-us-first-text {
+        max-width: 268px;
+    }
+
+    .about-us-item .about-us-second-text {
+        max-width: 264px;
+        max-height: 215px;
+    }
 }
 
 /* Desktop screen (1440px) */
@@ -96,5 +114,14 @@
 
     .about-us-list {
         gap: 40px;
+    }
+
+    .about-us-item .about-us-first-text {
+        max-width: 330px;
+    }
+
+    .about-us-item .about-us-second-text {
+        max-width: 276px;
+        max-height: 215px;
     }
 }
