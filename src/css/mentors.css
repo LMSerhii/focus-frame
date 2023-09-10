@@ -68,7 +68,8 @@
     font-size: 48px;
     margin-bottom: 50px;
   }
-  .mentors-list-item.mia{width: 194px;}
+  /* .mentors-list-item.mia{width: 194px;} */
+  .mentors-name.mia{font-size: 26px;}
   .mentors-name {
     font-size: 28px;
     line-height: 1.14;    
@@ -100,7 +101,7 @@
     padding: 75px 0;
   }
   .mentors-container {
-    padding: 0 33px;
+    padding: 0 100px;
   }
   .mentors-list {
     flex-direction: row;
@@ -108,7 +109,7 @@
     gap: 93px;
     justify-content: center;
   }
-  /* .mentors-list-item{width:calc((100% - 279px) / 4);} */
+  
 }
 @media screen and (min-width: 1440px) {
   .mentors-list {
