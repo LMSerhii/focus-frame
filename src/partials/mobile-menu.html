@@ -1,56 +1,57 @@
-<!-- mobile-menu -->
-
-  <div class="menu-container js-menu-container" id="mobile-menu">
-    <button  type="button" 
-    class="burger-menu js-close-menu">
-      <svg class="burger-menu-close" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-        <path d="M24 8L8 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M8 8L24 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-    </button>
-
-<ul class="mobile-list">
-    <li class="menu-item"><a href="#about-us">About us
-    </a>
-</li>
-    <li class="menu-item"><a href="#our-courses">Our courses
-    </a>
-</li>
-    <li class="menu-item"><a href="#our-mentors">Our mentors
-    </a>
-</li>
-    <li class="menu-item"><a href="#reviews">Reviews
-    </a>
-</li>
-    <li class="menu-item"><a href="#contacts">Contacts
-    </a>
-</li>
-</ul>
-
-<picture class="menu-img" alt="camera">
-  <!-- Tablet screen -->
-  <source
-    media="(min-width: 768px)"
-    srcset="../img/Mobile-menu/Mobile-menu-tablet.jpg 1x, ../img/Mobile-menu/Mobile-menu-tablet@2x.jpg 2x"
-  />
-  <!-- Mobile screen -->
-  <source
-    media="(max-width: 767px)"
-    srcset="../img/Mobile-menu/Mobile-menu-mob.jpg 1x, ../img/Mobile-menu/Mobile-menu-mob@2x.jpg 2x"
-  />
-  <img
-    class="img"
-    src="../img/Mobile-menu/Mobile-menu-mob.jpg"
-    alt="camera"
-  />
-</picture>
-
-</div>
-
-<script
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-  crossorigin="anonymous"
-></script>
-<script defer src="js/mobile-menu.js"></script>
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal">
+    <div class="menu-container js-menu-container" id="mobile-menu">
+          <div class="menu-box" >
+            <button type="button" class="menu-btn js-close-menu" id="close-button">
+              <svg class="close-btn" width="32" height="32">
+                <use href="./img/sprite.svg#close"></use>
+              </svg>
+            </button>
+      <!-- menu -->
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a href="#about-us" class="link-mobile-menu-first">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#our-courses" class="link-mobile-menu">Our courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#our-mentors" class="link-mobile-menu">Our mentors</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="link-mobile-menu">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="link-mobile-menu">Contacts</a>
+          </li>
+        </ul>
+    
+        <div class="picture-wrap">
+          <picture>
+    
+            <!-- Tablet screen -->
+            <source
+             media="(min-width: 768px)"
+             srcset="./img/mobile-menu/mobile-menu-tablet.jpg 1x, ./img/mobile-menu/mobile-menu-tablet@2x.jpg 2x"
+             type="image/jpg"
+            />
+            <!-- Mobile screen -->
+            <source
+             media="(max-width: 767px)"
+             srcset="./img/mobile-menu/mobile-menu-mob.jpg 1x, ./img/mobile-menu/mobile-menu-mob@2x.jpg 2x"
+             type="image/jpg"
+            />
+            <img
+             class="card-img"
+             src="./img/mobile-menu/mobile-menu-mob.jpg"
+             alt="fhotocamera"
+             width="100%"
+             height="100%"
+             loading="lazy"
+            />
+           </picture>
+        </div>
+          </div>
+        </div>
+  </div>
+</div>  
