@@ -1,0 +1,113 @@
+.our-mentors {
+  padding: 40px 0;
+  background-color: var(--black);
+}
+
+.mentors-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+  margin-bottom: 40px;
+}
+.mentors-accent {
+  color: var(--brown);
+}
+.mentors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.mentors-list-item{
+  width: 180px;} 
+
+.mentors-image {
+  border-radius: 200px;
+  background: linear-gradient(
+    rgba(211, 211, 211, 0.5),
+    rgba(211, 211, 211, 0.5)
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and(min-resolution: 192dpi),
+  screen and(min-resolution: 2dppx) {
+  .mentors-image {
+    background: linear-gradient(
+      rgba(211, 211, 211, 0.5),
+      rgba(211, 211, 211, 0.5)
+    );
+  }
+}
+
+.mentors-description {
+  margin-top: 16px;
+  
+}
+.mentors-name {
+  color: var(--white);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.mentors-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.24px;
+}
+@media screen and (min-width: 768px) {
+  .mentors-title {
+    font-size: 48px;
+    margin-bottom: 50px;    
+  }
+  
+  .mentors-name {
+    font-size: 28px;
+    line-height: 1.14;
+    
+  }
+  .mentors-text {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    line-height: 1.29;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .our-mentors{padding: 50px 0;}
+  .mentors-container {
+    max-width: 690px;
+  }
+
+  .mentors-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 93px 100px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .our-mentors{padding: 75px 0;}
+  .mentors-container{padding: 0 33px;}
+  .mentors-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 93px;
+    justify-content: center;
+  
+  }
+   /* .mentors-list-item{width:calc((100% - 279px) / 4);} */
+}
+@media screen and (min-width: 1440px) {
+  .mentors-list {
+    gap: 113px;
+  }
+}
