@@ -156,7 +156,6 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.64px;
-    /* transform: translate(83px, 0px); */
   }
 }
 .hero-arrow-2 {
@@ -167,7 +166,6 @@
 }
 @media screen and (min-width: 768px) {
   .hero-arrow-2 {
-    /* transform: translate(83px, 0px); */
   }
 }
 .hero-ison-star {
@@ -195,39 +193,33 @@
 }
 .star-icon {
   display: flex;
- row-gap: 4px;
+  row-gap: 4px;
   flex-wrap: wrap;
   column-gap: 50px;
 }
 
-
 @media only screen and (min-width: 260px) and (max-width: 380px) {
   .star-icon {
     row-gap: 1px;
-    
+
     column-gap: 1px;
   }
 }
 
-
-
-
 @media screen and (min-width: 768px) {
   .star-icon {
-    
     margin-bottom: 36px;
     column-gap: 10px;
   }
 }
 @media screen and (min-width: 1280px) {
   .star-icon {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .star-icon {
-   
   }
 }
 
@@ -249,8 +241,6 @@
   border-radius: 100px;
   border: var(--gray);
 }
-
-/* .textes-p > p {margin-bottom: 40px;} */
 
 .textes {
   display: flex;
@@ -274,10 +264,6 @@
   }
 }
 
-
-
-
-
 @media only screen and (min-width: 260px) and (max-width: 380px) {
   .star {
     gap: 0px;
@@ -290,28 +276,20 @@
   display: flex;
 
   gap: 12px;
-  
 }
-
 
 @media screen and (min-width: 1280px) {
   .star {
-    /* padding-right: 200px; */
   }
 }
 @media screen and (min-width: 1440px) {
   .star {
-    /* padding-right: 305px; */
   }
 }
 
 .hero-icon-arrow2 {
   display: flex;
-  /* flex-direction: row;
-  flex-wrap: nowrap;
-  width: 87px;
-  gap: 4px;
-  align-items: center; */
+
   align-items: center;
   order: 3;
 }
@@ -329,8 +307,6 @@
   }
 }
 .hero-img-desctop {
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 @media screen and (min-width: 768px) {
   .hero-img-desctop {
@@ -434,8 +410,6 @@
   }
 }
 
-
-
 @media screen and (min-width: 1280px) {
   .hero-section-container {
     flex-direction: row;
@@ -451,9 +425,6 @@
   }
 }
 .container-one {
-  /* padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -489,9 +460,6 @@
     padding-left: 0px;
   }
 }
-
-
-
 
 .star-text {
   display: flex;
