@@ -20,7 +20,7 @@
  @import url('./advertisement.css');
 
 /* about us */
-/* @import url(''); */
+@import url('./about-us.css');
 
 /* our courses */
 @import url('./our_courses.css');
