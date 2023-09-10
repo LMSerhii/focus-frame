@@ -1,8 +1,13 @@
 /* advertisement */
 
+.advertisement {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 .marquee {
-  overflow: hidden;
+  /* overflow: hidden; */
   text-transform: uppercase;
+  max-width: 100%;
   /* Require attention: */
   /* font-weight: 500; */
   font-size: 28px;
@@ -17,8 +22,6 @@
   display: flex;
   overflow: hidden;
   background-color: transparent;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .marquee_line {
