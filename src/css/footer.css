@@ -129,12 +129,12 @@
   transition: var(--animation);
 }
 
-.footer-socials-list .socials-list-item:not(:last-child) .socials-list-link {
+.socials-list-item:not(:last-child) {
   padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-socials-list .socials-list-item:not(:last-child) .socials-list-link {
+  .socials-list-item:not(:last-child) {
     padding-bottom: 20px;
   }
 }
@@ -159,16 +159,12 @@
   display: block;
 }
 
-.footer-navigation-list
-  .navigation-list-item:not(:last-child)
-  .navigation-list-link {
+.navigation-list-item:not(:last-child) {
   padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-navigation-list
-    .navigation-list-item:not(:last-child)
-    .navigation-list-link {
+  .navigation-list-item:not(:last-child) {
     padding-bottom: 20px;
   }
 }
