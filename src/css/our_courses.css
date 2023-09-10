@@ -219,7 +219,7 @@ max-width: 335px;
 }
 
 
-.card-button {
+.card-link {
     
     display: flex;
     align-items: center;
@@ -238,12 +238,13 @@ max-width: 335px;
 }
 
 
-.card-button:hover {
+.card-link:hover {
     background-color: var(--brown);
 }
 
 
 .card-icon {
+fill: rgba(0, 0, 0, 0);
 stroke: var(--icon-color);
 }
 
