@@ -14,6 +14,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
+  gap: 31px;
 }
 
 @media screen and (min-width: 768px) {
@@ -21,6 +22,7 @@
     padding-left: 32px;
     padding-right: 155px;
     padding-top: 64px;
+    gap: 36px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -208,13 +210,13 @@
 
 @media screen and (min-width: 768px) {
   .star-icon {
-    margin-bottom: 36px;
+    
     column-gap: 10px;
   }
 }
 @media screen and (min-width: 1280px) {
   .star-icon {
-    margin-bottom: 50px;
+    
   }
 }
 
@@ -310,11 +312,13 @@
 }
 @media screen and (min-width: 768px) {
   .hero-img-desctop {
+    
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-img-desctop {
     width: 397px;
+    
   }
 }
 
