@@ -19,6 +19,9 @@
   gap: 40px;
   align-items: center;
 }
+.mentors-list-item{
+  width: 180px;} 
+
 .mentors-image {
   border-radius: 200px;
   background: linear-gradient(
@@ -42,6 +45,7 @@
 
 .mentors-description {
   margin-top: 16px;
+  
 }
 .mentors-name {
   color: var(--white);
@@ -62,10 +66,13 @@
 @media screen and (min-width: 768px) {
   .mentors-title {
     font-size: 48px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
   }
+  
   .mentors-name {
     font-size: 28px;
+    line-height: 1.14;
+    
   }
   .mentors-text {
     font-size: 14px;
@@ -89,14 +96,15 @@
 
 @media screen and (min-width: 1280px) {
   .our-mentors{padding: 75px 0;}
+  .mentors-container{padding: 0 33px;}
   .mentors-list {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 93px;
     justify-content: center;
-    padding-left: 84px;
-    padding-right: 32px;
+  
   }
+   /* .mentors-list-item{width:calc((100% - 279px) / 4);} */
 }
 @media screen and (min-width: 1440px) {
   .mentors-list {
