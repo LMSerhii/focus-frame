@@ -1,6 +1,6 @@
 .about-us {
-    padding-top: 150px;
-    padding-bottom: 75px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .about-us-title {
@@ -46,6 +46,12 @@
 
 /* Tablet screen */
 @media screen and (min-width: 768px) {
+    .about-us {
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
     .about-us-title {
         font-size: 48px;
         margin: 0;
@@ -78,6 +84,12 @@
 
 /* Desktop screen (1280px) */
 @media screen and (min-width: 1280px) {
+    .about-us {
+        padding: 0;
+        padding-top: 150px;
+        padding-bottom: 75px;
+    }
+
     .about-us-content {
         display: flex;
         align-items: center;
