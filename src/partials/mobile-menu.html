@@ -1,10 +1,14 @@
 <!-- mobile-menu -->
-<div class="menu-container" id="mobile-menu">
-    <button class="close-menu-button js-close-menu">
-        <svg class="close-menu" width="32" height="32">
-          <use href="../img/sprite.svg#close"></use>
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button  type="button" 
+    class="burger-menu js-close-menu">
+      <svg class="burger-menu-close" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <path d="M24 8L8 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 8L24 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-      </button>
+    </button>
+
 <ul class="mobile-list">
     <li class="menu-item"><a href="#about-us">About us
     </a>
@@ -35,36 +39,18 @@
     srcset="../img/Mobile-menu/Mobile-menu-mob.jpg 1x, ../img/Mobile-menu/Mobile-menu-mob@2x.jpg 2x"
   />
   <img
-    class="products-ill"
-    src="./images/products/img-1_mob.png"
-    alt="Dark chocolate with orange"
-    width="230"
-    height="201"
+    class="img"
+    src="../img/Mobile-menu/Mobile-menu-mob.jpg"
+    alt="camera"
   />
 </picture>
 
 </div>
 
-
-
-<!-- paste to header -->
-
-<!-- <button type="button" class="burger-menu js-open-menu"
-aria-expanded="false"
-aria-controls="mobile-menu">
-    <svg class="burger-icon" width="32" height="22">
-      <use href="./img/sprite.svg#burger-nav"></use>
-    </svg>
-  </button> -->
-
-  <!-- paste to body -->
-
-  <!-- <script src="./js/modal.js"></script>
-  <script
+<script
   defer
   src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
   integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
   crossorigin="anonymous"
->
-</script>
-  <script defer src="./js/mobile-menu.js"></script> -->
+></script>
+<script defer src="js/mobile-menu.js"></script>

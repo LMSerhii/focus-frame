@@ -1,54 +1,78 @@
 /* mobile-menu */
-/* .burger-menu {} */
+
+  .burger-menu-close {
+position: absolute;
+top: 20px;
+right: 20px;
+width: 32px;
+height: 32px;
+flex-shrink: 0;
+background: transparent;
+  }
   
+  @media (min-width: 768px) {
+    .burger-menu-close {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+  }
+  
+
 .menu-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 228px;
+    height: 812px;
+    padding: 0;
+    z-index: 99;
+    background: var(--brown, #BEA69E);
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+  }
+ .menu-container.is-open {
+    transform: translateX(0);
+  }
+  .menu-container .burger-menu {
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 228px;
-    max-height: 812px;
-    padding: 0;
-    background: var(--brown, #BEA69E);}
-
+  }
 
 @media screen and (min-width: 768px) {
     .menu-container {
-        max-width: 480px;
-        max-height: 1024px;
+        width: 480px;
+        height: 1024px;
+        flex-shrink: 0;
     }
   }
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1280px) {
     .menu-container {
    display: none;
     }
   }
 
-
-.close-menu-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-@media screen and (min-width: 768px) {
-.close-menu-button {
-    right: 32px;
-    }
-  }
   
 .mobile-list {
-    padding-left: 20px;
-    padding-top: 180px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+padding-left: 20px;
+padding-top: 180px;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
     
    
 }
 @media screen and (min-width: 768px) {
-    .mobile-list {
-        padding-left: 64px;
-        padding-top: 232px;
+.mobile-list {
+padding-left: 64px;
+padding-top: 232px;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 28px;
         }
       }
 
@@ -68,12 +92,14 @@
 
 
 .menu-img {
-    padding-top: 483px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
 }
 
 @media screen and (min-width: 768px) {
 .menu-img {
-    padding-top: 548px;
+width: 100%;
 }
 }
