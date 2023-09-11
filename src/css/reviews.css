@@ -127,8 +127,11 @@
     .hero-list-reviews {
         display: flex;
         gap: 20px;
-        padding-left: 32px;
-        padding-right: 32px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+        .hero-list-reviews {
+            padding: 0 32px;
+        }
     }
     .hero-line-reviews {
         border-radius: 12px;
