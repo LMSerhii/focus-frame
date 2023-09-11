@@ -15,12 +15,12 @@
   z-index: 1;
   }
   
-/* .modal {
+.modal {
   display: none;
-} */
+}
 
 .menu-box {
-    /* display: none; */
+    display: none;
     background-color: var(--brown);
 
     max-width: 218px;
@@ -52,7 +52,10 @@
   .close-btn {
     stroke: var(--black);
   }
-
+.close-btn:hover,
+.close-btn:focus {
+  stroke: var(--white);
+}
  
   
   .menu-container {
@@ -140,8 +143,8 @@
   .link-mobile-menu:hover,
   .link-mobile-menu:focus,
   .link-mobile-menu-first:hover,
-  .link-mobile-menu-first:focus {
-    color: var(--white);
+  .link-mobile-menu-first:focus
+  {color: var(--white);
   }
   
 
