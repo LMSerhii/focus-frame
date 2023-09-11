@@ -263,7 +263,7 @@
   }
 }
 
-@media only screen and (min-width: 260px) and (max-width: 380px) {
+@media only screen and (max-width: 374.98px) {
   .star {
     gap: 0px;
   }
@@ -322,7 +322,7 @@
   }
 }
 
-@media only screen and (min-width: 260px) and (max-width: 380px) {
+@media only screen and (max-width: 374.98px) {
   .hero-img-desctop {
     width: 177px;
     padding-top: 31px;
