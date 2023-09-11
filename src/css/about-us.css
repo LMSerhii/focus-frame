@@ -16,10 +16,13 @@
     color: #BEA69E;
 }
 
-.about-us-img {
-    background-color: #121212;
+.about-us-picture {
     margin-bottom: 40px;
 }
+
+/* .about-us-img {
+    background-color: #121212;
+} */
 
 .about-us-item {
     color: var(--white, #FFF);
@@ -60,7 +63,7 @@
         margin-bottom: 50px;
     }
 
-    .about-us-img {
+    .about-us-picture {
         margin: 0;
         margin-bottom: 50px;
     }
@@ -98,7 +101,7 @@
         gap: 40px;
     }
 
-    .about-us-img {
+    .about-us-picture {
         margin: 0;
     }
 
