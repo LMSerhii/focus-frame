@@ -48,7 +48,7 @@
   .hero-title-h {
     width: 517px;
     font-size: 60px;
-    line-height: 64px;
+    line-height: 1.1;
     letter-spacing: -0.04em;
   }
 }
@@ -57,7 +57,7 @@
     font-size: 64px;
 
     font-weight: 500;
-    line-height: 68px;
+    line-height: 1.1;
     letter-spacing: -0.04em;
   }
 }
@@ -106,7 +106,7 @@
     font-size: 64px;
 
     font-weight: 500;
-    line-height: 68px;
+    line-height: 1.1;
     letter-spacing: -0.04em;
   }
 }
@@ -114,7 +114,7 @@
 @media screen and (min-width: 768px) {
   .hero-title-span {
     font-size: 60px;
-    line-height: 64px;
+    line-height: 1.1;
     letter-spacing: -0.04em;
   }
 }
@@ -129,7 +129,7 @@
 @media screen and (min-width: 768px) {
   .hero-text-star-p1 {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.1;
     letter-spacing: -0.04em;
   }
 }
@@ -142,7 +142,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero-text-star-p2 {
-    line-height: 20px;
+    line-height: 1.1;
   }
 }
 .hero-text-icon {
@@ -156,7 +156,7 @@
   .hero-text-icon {
     width: 82px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.3;
     letter-spacing: -0.04em;
   }
 }
