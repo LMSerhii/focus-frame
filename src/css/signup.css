@@ -37,7 +37,6 @@
   color: var(--white);
   font-size: 14px;
   line-height: 1.29;
-  opacity: 0.7;
 }
 .input-message {
   margin-bottom: 40px;
@@ -51,6 +50,10 @@ textarea {
   border-color: rgba(255, 255, 255, 0.5);
   opacity: 1;
   transition: var(--animation);
+}
+.form-input::placeholder {
+  color: var(--white);
+  opacity: 0.7;
 }
 .send-btn {
   display: block;
