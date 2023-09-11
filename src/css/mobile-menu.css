@@ -54,7 +54,7 @@
   }
 .close-btn:hover,
 .close-btn:focus {
-  stroke: var(--white);
+  color: var(--white);
 }
  
   
