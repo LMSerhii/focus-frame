@@ -4,10 +4,12 @@
 }
 
 .about-us-title {
+    font-size: 28px;
     color: #FFF;
     line-height: 1.14em;
     letter-spacing: -1.12px;
     margin-bottom: 40px;
+    font-weight: 500;
 }
 
 .span-about-us-title {
