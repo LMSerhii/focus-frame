@@ -221,7 +221,7 @@
   display: flex;
   row-gap: 4px;
   flex-wrap: wrap;
-  column-gap: 50px;
+  column-gap: 40px;
 }
 
 @media only screen and (max-width: 374.98px) {
@@ -234,6 +234,12 @@
 @media screen and (min-width: 768px) {
   .star-icon {
     column-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .star-icon {
+    column-gap: 12px;
   }
 }
 
@@ -286,16 +292,22 @@
 
 .hero-icon-arrow2 {
   display: flex;
-
   align-items: center;
   order: 3;
 }
+
 @media screen and (min-width: 768px) {
   .hero-icon-arrow2 {
     flex-direction: column;
     align-items: flex-start;
     order: 0;
-    margin-right: 40px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-icon-arrow2 {
+    margin-right: 28px;
   }
 }
 
