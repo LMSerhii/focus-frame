@@ -7,7 +7,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
 .mentors-accent {
@@ -21,7 +21,7 @@
   flex-grow: 1;
 }
 .mentors-list-item {
-  width: 180px;
+  max-width: 185px;
 }
 
 .mentors-image {
@@ -47,6 +47,7 @@
 
 .mentors-description {
   margin-top: 16px;
+  max-width: 185px;
 }
 .mentors-name {
   color: var(--white);
@@ -54,7 +55,9 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  margin: 0 auto;
   margin-bottom: 4px;
+  max-width: 139px;
 }
 .mentors-text {
   color: rgba(255, 255, 255, 0.5);
@@ -62,27 +65,26 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 1.33;
-  letter-spacing: -0.24px;
+  letter-spacing: -0.02em;
 }
 @media screen and (min-width: 768px) {
   .mentors-title {
     font-size: 48px;
     margin-bottom: 50px;
   }
-
-  /* .mentors-list-item.mia{width: 194px;} */
-  .mentors-name.mia {
-    font-size: 26px;
-  }
+  
   .mentors-name {
     font-size: 28px;
     line-height: 1.14;
+    max-width: 194px;   
+
   }
   .mentors-text {
     font-size: 14px;
-    letter-spacing: -0.28px;
+    letter-spacing: -0.02em;
     line-height: 1.29;
   }
+  .mentors-description{max-width: 194px;}
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .our-mentors {
