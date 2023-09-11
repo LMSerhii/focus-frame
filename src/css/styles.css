@@ -1,3 +1,6 @@
+/* fonts */
+@import url('./fonts');
+
 /* variables */
 @import url('./variables.css');
 
@@ -20,13 +23,16 @@
  @import url('./advertisement.css');
 
 /* about us */
-/* @import url(''); */
+@import url('./about-us.css');
 
 /* our courses */
 @import url('./our_courses.css');
 
 /* our mentors */
 /* @import url(''); */
+
+/* our mentors */
+@import url('./mentors.css');
 
 /* sign up */
 @import url('./signup.css');
@@ -35,4 +41,4 @@
 /* @import url(''); */
 
 /* footer */
-/* @import url(''); */
+@import url('./footer.css');

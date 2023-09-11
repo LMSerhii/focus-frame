@@ -50,6 +50,7 @@ textarea {
 .form-input:focus {
   border-color: rgba(255, 255, 255, 0.5);
   opacity: 1;
+  transition: var(--animation);
 }
 .send-btn {
   display: block;
@@ -62,12 +63,13 @@ textarea {
   border-radius: 12px;
   background: var(--white);
   height: 48px;
+  transition: var(--animation);
 }
 .send-btn:hover,
 .send-btn:focus {
   background-color: inherit;
   color: var(--brown);
-  background: #1d1d1d;
+  background: var(--gray);
 }
 .btn-desc {
   color: rgba(255, 255, 255, 0.5);
@@ -131,7 +133,7 @@ textarea {
   |============================
 */
 @media screen and (min-width: 1280px) {
-  .signup-section-container {
+  .global-section-container {
     display: flex;
   }
   .form-container {

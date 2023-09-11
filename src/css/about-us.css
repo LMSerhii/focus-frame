@@ -1,0 +1,139 @@
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.about-us-title {
+    color: #FFF;
+    line-height: 1.14em;
+    letter-spacing: -1.12px;
+    margin-bottom: 40px;
+}
+
+.span-about-us-title {
+    color: #BEA69E;
+}
+
+.about-us-img {
+    background-color: #121212;
+    margin-bottom: 40px;
+}
+
+.about-us-item {
+    color: var(--white, #FFF);
+    font-size: 14px;
+    line-height: 1.28em;
+    letter-spacing: -0.28px;
+}
+
+.about-us-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.about-us-item .about-us-first-text {
+    max-width: 335px;
+}
+
+.about-us-item .about-us-second-text {
+    max-width: 335px;
+}
+
+/* @media screen and (max-width: 426px) {
+    .about-us-container .container{
+        margin: 0;
+    }
+} */
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+    .about-us {
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .about-us-title {
+        font-size: 48px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us-img {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us-list {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .about-us-item:not(:last-child) {
+        margin: 0;
+    }
+
+    .about-us-item .about-us-first-text {
+        max-width: 280px;
+    }
+    
+    .about-us-item .about-us-second-text {
+        max-width: 280px;
+    }
+}
+
+/* Desktop screen (1280px) */
+@media screen and (min-width: 1280px) {
+    .about-us {
+        padding: 0;
+        padding-top: 150px;
+        padding-bottom: 75px;
+    }
+
+    .about-us-content {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about-us-img {
+        margin: 0;
+    }
+
+    .about-us-list {
+        gap: 20px;
+    }
+
+    .about-us-item {
+        font-size: 16px;
+    }
+
+    .about-us-item .about-us-first-text {
+        max-width: 268px;
+    }
+
+    .about-us-item .about-us-second-text {
+        max-width: 264px;
+        max-height: 215px;
+    }
+}
+
+/* Desktop screen (1440px) */
+@media screen and (min-width: 1440px) {
+    .about-us-content {
+        gap: 50px;
+    }
+
+    .about-us-list {
+        gap: 40px;
+    }
+
+    .about-us-item .about-us-first-text {
+        max-width: 330px;
+    }
+
+    .about-us-item .about-us-second-text {
+        max-width: 276px;
+        max-height: 215px;
+    }
+}
