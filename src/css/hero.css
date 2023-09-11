@@ -313,6 +313,7 @@
 
 .hero-img-desctop {
   display: flex;
+  align-items: flex-end;
   justify-content: center;
 }
 
