@@ -2,7 +2,6 @@
   .list {
     list-style: none;
   }
-  @media screen and (min-width: 375px) {
     .reviews {
         padding: 80px 0;
     }
@@ -111,7 +110,6 @@
         display: flex;
         align-items: center;
     }
-}
   @media screen and (min-width: 768px) {
     .reviews {
         padding: 100px 0;
