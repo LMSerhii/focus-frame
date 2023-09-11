@@ -3,33 +3,6 @@
   | Mobile
   |============================
 */
-.hero-section-container {
-  border-radius: 30px;
-  background: var(--gray);
-}
-
-.hero-section-container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  gap: 31px;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-section-container {
-    padding-left: 32px;
-    padding-right: 155px;
-    padding-top: 64px;
-    gap: 36px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .hero-section-container {
-    gap: 20px;
-  }
-}
 
 .hero-section {
   padding-bottom: 80px;
@@ -47,8 +20,67 @@
   }
 }
 
+.hero-section-container {
+  border-radius: 30px;
+  background: var(--gray);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section-container {
+    padding-left: 32px;
+    padding-right: 32px;
+
+    padding-top: 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-section-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section-container {
+    padding-right: 100px;
+  }
+}
+.two-pitures {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .two-pitures {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .two-pitures {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+}
+
+.text-wrapp {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1280px) {
+  .text-wrapp {
+    margin-bottom: 136px;
+  }
+}
 
 .hero-title-h {
+  max-width: 295px;
   margin-bottom: 20px;
   font-size: 40px;
   font-weight: 500;
@@ -58,52 +90,34 @@
 }
 @media screen and (min-width: 768px) {
   .hero-title-h {
-    width: 517px;
+    max-width: 517px;
     font-size: 60px;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
+    line-height: 1.07;
   }
 }
-@media screen and (min-width: 1280px) {
-  .hero-title-h {
-    font-size: 64px;
 
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
-  }
-}
 @media screen and (min-width: 1280px) {
   .hero-title-h {
-    width: 563px;
+    max-width: 563px;
+    font-size: 64px;
   }
 }
 
 .hero-title-p {
   font-size: 14px;
-  display: inline-block;
   font-weight: 400;
   line-height: 1.3;
   letter-spacing: -0.02em;
+
+  max-width: 295px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-title-p {
-    width: 418px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .hero-title-p {
-    padding-right: 0px;
-    width: 418px;
+    max-width: 418px;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .hero-title-p {
-    display: inline-block;
-  }
-}
 .hero-title-span {
   font-size: 40px;
   font-weight: 400;
@@ -202,6 +216,7 @@
   stroke: var(--black);
   fill: var(--brown);
 }
+
 .star-icon {
   display: flex;
   row-gap: 4px;
@@ -232,6 +247,7 @@
     gap: 8px;
   }
 }
+
 @media screen and (min-width: 768px) {
 }
 .icon {
@@ -254,15 +270,6 @@
   }
 }
 
-.textes-p {
-  margin-bottom: 40px;
-}
-@media screen and (min-width: 1280px) {
-  .textes-p {
-    margin-bottom: 136px;
-  }
-}
-
 @media only screen and (max-width: 374.98px) {
   .star {
     gap: 0px;
@@ -276,7 +283,6 @@
 
   gap: 12px;
 }
-
 
 .hero-icon-arrow2 {
   display: flex;
@@ -293,14 +299,9 @@
   }
 }
 
-
-@media only screen and (max-width: 374.98px) {
-  .hero-img-desctop {
-    width: 177px;
-    padding-top: 31px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.hero-img-desctop {
+  display: flex;
+  justify-content: center;
 }
 
 .icon-girl2 {
@@ -381,22 +382,6 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .hero-section-container {
-    flex-direction: row;
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .hero-section-container {
-    padding-right: 100px;
-    gap: 130px;
-  }
-}
-
-
 @media screen and (min-width: 768px) {
   .container-one {
     padding-top: 64px;
@@ -411,26 +396,6 @@
     padding-left: 0px;
   }
 }
-
-.container-two {
-  display: flex;
-  padding-left: 18px;
-  padding-right: 18px;
-}
-@media screen and (min-width: 768px) {
-  .container-two {
-    padding-right: 0px;
-    padding-left: 124px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container-two {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-}
-
 .star-text {
   display: flex;
 }
