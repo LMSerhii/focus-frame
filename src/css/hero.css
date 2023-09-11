@@ -200,23 +200,20 @@
   column-gap: 50px;
 }
 
-@media only screen and (min-width: 260px) and (max-width: 380px) {
+@media only screen and (max-width: 374.98px) {
   .star-icon {
     row-gap: 1px;
-
     column-gap: 1px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .star-icon {
-    
     column-gap: 10px;
   }
 }
 @media screen and (min-width: 1280px) {
   .star-icon {
-    
   }
 }
 
@@ -312,13 +309,11 @@
 }
 @media screen and (min-width: 768px) {
   .hero-img-desctop {
-    
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-img-desctop {
     width: 397px;
-    
   }
 }
 
