@@ -54,7 +54,7 @@
   }
 .close-btn:hover,
 .close-btn:focus {
-  color: var(--white);
+  stroke: var(--white);
 }
  
   
@@ -143,8 +143,8 @@
   .link-mobile-menu:hover,
   .link-mobile-menu:focus,
   .link-mobile-menu-first:hover,
-  .link-mobile-menu-first:focus {
-    color: var(--white);
+  .link-mobile-menu-first:focus
+  {color: var(--white);
   }
   
 
