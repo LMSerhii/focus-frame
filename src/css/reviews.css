@@ -86,11 +86,6 @@
         width: 20px;
         height: 20px;
     }
-    .container-star-reviews {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
     .title-reviews-peoples,
     .text-reviews-peoples {
         flex: 1;
