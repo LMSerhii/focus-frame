@@ -52,6 +52,18 @@
   font-size: 14px;
   line-height: 1.29;
 }
+
+/* Validation */
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border-color: #dc143c;
+}
+input:valid:not(:placeholder-shown),
+textarea:valid:not(:placeholder-shown) {
+  border-color: #008000;
+}
+/*  */
+
 .user-name,
 .user-email {
   margin-bottom: 8px;
