@@ -5,19 +5,21 @@
 */
 
 .hero-section {
-  padding-top: 160px;
+  padding-top: 90px;
   padding-bottom: 80px;
   background-image: url(../img/background.png);
 }
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-bottom: 100px;
+    padding-top: 120px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-section {
     padding-bottom: 150px;
+    padding-top: 90px;
   }
 }
 
