@@ -1,19 +1,7 @@
 .header {
   padding-top: 20px;
-  padding-bottom: 20px;
-  background-image: url(../img/background.png);
-}
-
-@media screen and (min-width: 768px) {
-  .header {
-    padding-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header {
-    padding-bottom: 80px;
-  }
+  position: absolute;
+  width: 100%; 
 }
 
 .header-nav {
