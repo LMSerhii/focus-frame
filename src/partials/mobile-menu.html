@@ -1,13 +1,13 @@
 <div class="overlay" id="overlay">
   <div class="modal" id="modal">
     <div class="menu-container js-menu-container" id="mobile-menu">
-          <div class="menu-box" >
-            <button type="button" class="menu-btn js-close-menu" id="close-button">
-              <svg class="close-btn" width="32" height="32">
-                <use href="./img/sprite.svg#close"></use>
-              </svg>
-            </button>
-      <!-- menu -->
+      <div class="menu-box">
+        <button type="button" class="menu-btn js-close-menu" id="close-button">
+          <svg class="close-btn" width="32" height="32">
+            <use href="./img/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <!-- menu -->
         <ul class="mobile-menu-list">
           <li class="mobile-menu-item">
             <a href="#about-us" class="link-mobile-menu-first">About us</a>
@@ -25,31 +25,10 @@
             <a href="#contacts" class="link-mobile-menu">Contacts</a>
           </li>
         </ul>
-    
-        <div class="picture-wrap">
-          <picture>
-    
-            <!-- Tablet screen -->
-            <source
-             media="(min-width: 768px)"
-             srcset="./img/mob-menu/mob-menu-tab.png 1x, ./img/mob-menu/mob-menu-tab@2x.png 2x"
-             type="image/png"
-            />
-            <!-- Mobile screen -->
-            <source
-             media="(max-width: 767px)"
-             srcset="./img/mob-menu/mob-menu-mob.png 1x, ./img/mob-menu/mob-menu-mob@2x.png 2x"
-             type="image/png"
-            />
-            <img
-             class="card-img"
-             src="./img/mob-menu/mob-menu-mob.png"
-             alt="photocamera"
-             loading="lazy"
-            />
-           </picture>
+        <div class="background-photo">
+
         </div>
-          </div>
-        </div>
+      </div>
+    </div>
   </div>
-</div>  
+</div>
